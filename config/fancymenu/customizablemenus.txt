@@ -1,0 +1,17 @@
+type = customizablemenus
+
+com.pg85.otg.forge.gui.presets.OTGGuiPresetList {
+}
+
+com.pg85.otg.forge.gui.dimensions.OTGGuiDimensionList {
+}
+
+com.pg85.otg.forge.gui.mainmenu.OTGGuiWorldSelection {
+}
+
+net.minecraft.client.gui.GuiIngameMenu {
+}
+
+net.minecraft.client.gui.GuiMainMenu {
+}
+

@@ -1,0 +1,528 @@
+{
+  "_schemaVersion": 7,
+  "_lastMCVersionId": 340,
+  "generalSettings": {
+    "detectATLauncherInstance": false,
+    "detectCurseManifest": true,
+    "detectMultiMCManifest": false,
+    "detectMCUpdaterInstance": false,
+    "detectTechnicPack": false,
+    "detectModrinthPack": true,
+    "detectBiomeData": true,
+    "detectDimensionData": true,
+    "detectWorldData": true,
+    "clientId": "1382511474001313884",
+    "defaultIcon": "icon",
+    "enableJoinRequests": false,
+    "preferredClientLevel": 3,
+    "resetTimeOnInit": false,
+    "autoRegister": false
+  },
+  "biomeSettings": {
+    "fallbackBiomeIcon": "unknown",
+    "biomeData": {
+      "default": {
+        "textOverride": "Playing in {biome.name}"
+      }
+    }
+  },
+  "dimensionSettings": {
+    "fallbackDimensionIcon": "unknown",
+    "dimensionData": {
+      "default": {
+        "textOverride": "In the {dimension.name}"
+      },
+      "overworld": {
+        "data": {
+          "enabled": false,
+          "useAsMain": true,
+          "isInstance": false,
+          "activityType": 0,
+          "statusDisplayType": 0,
+          "partyPrivacy": 1,
+          "details": "{player.name} is in The Overworld",
+          "detailsUrl": "",
+          "gameState": "",
+          "gameStateUrl": "",
+          "appName": "",
+          "largeImageKey": "icon",
+          "largeImageText": "In the Overworld",
+          "largeImageUrl": "",
+          "smallImageKey": "mclogo",
+          "smallImageText": "{general.mods} mods installed",
+          "smallImageUrl": "",
+          "startTimestamp": "{data.general.time}",
+          "endTimestamp": "",
+          "buttons": {}
+        }
+      },
+      "the_nether": {
+        "data": {
+          "enabled": false,
+          "useAsMain": true,
+          "isInstance": false,
+          "activityType": 0,
+          "statusDisplayType": 0,
+          "partyPrivacy": 1,
+          "details": "{player.name} is in The Nether",
+          "detailsUrl": "",
+          "gameState": "",
+          "gameStateUrl": "",
+          "appName": "",
+          "largeImageKey": "icon",
+          "largeImageText": "In the Nether",
+          "largeImageUrl": "",
+          "smallImageKey": "mclogo",
+          "smallImageText": "{general.mods} mods installed",
+          "smallImageUrl": "",
+          "startTimestamp": "{data.general.time}",
+          "endTimestamp": "",
+          "buttons": {}
+        }
+      },
+      "the_end": {
+        "data": {
+          "enabled": false,
+          "useAsMain": true,
+          "isInstance": false,
+          "activityType": 0,
+          "statusDisplayType": 0,
+          "partyPrivacy": 1,
+          "details": "{player.name} is in The End",
+          "detailsUrl": "",
+          "gameState": "",
+          "gameStateUrl": "",
+          "appName": "",
+          "largeImageKey": "icon",
+          "largeImageText": "In the End",
+          "largeImageUrl": "",
+          "smallImageKey": "mclogo",
+          "smallImageText": "{general.mods} mods installed",
+          "smallImageUrl": "",
+          "startTimestamp": "{data.general.time}",
+          "endTimestamp": "",
+          "buttons": {}
+        }
+      }
+    }
+  },
+  "serverSettings": {
+    "fallbackServerIcon": "default",
+    "fallbackServerName": "Minecraft Server",
+    "fallbackServerMotd": "A Minecraft Server",
+    "serverData": {
+      "default": {
+        "textOverride": "Playing on {server.motd.raw}",
+        "data": {
+          "enabled": true,
+          "useAsMain": true,
+          "isInstance": false,
+          "activityType": 0,
+          "statusDisplayType": 0,
+          "partyPrivacy": 1,
+          "details": "Playing on {server.name} with {server.players.current} players",
+          "detailsUrl": "",
+          "gameState": "Playing online",
+          "gameStateUrl": "",
+          "appName": "",
+          "largeImageKey": "mclogonew",
+          "largeImageText": "v1.1.2b by Shivaxi",
+          "largeImageUrl": "",
+          "smallImageKey": "multi",
+          "smallImageText": "Multi Player - {general.mods} mods installed",
+          "smallImageUrl": "",
+          "startTimestamp": "{data.general.time}",
+          "endTimestamp": "",
+          "buttons": {
+            "button_1": {
+              "label": "Check out the Modpack!",
+              "url": "https://www.curseforge.com/minecraft/modpacks/rlcraft-dregora"
+            }
+          }
+        }
+      }
+    },
+    "pingRateInterval": 5,
+    "pingRateUnit": "minutes"
+  },
+  "statusMessages": {
+    "mainMenuData": {
+      "textOverride": "In the Main Menu",
+      "data": {
+        "enabled": true,
+        "useAsMain": true,
+        "isInstance": false,
+        "activityType": 0,
+        "statusDisplayType": 0,
+        "partyPrivacy": 1,
+        "details": "Chilling in the main menu",
+        "detailsUrl": "",
+        "gameState": "{player.name} is currently lazy",
+        "gameStateUrl": "",
+        "appName": "",
+        "largeImageKey": "icon",
+        "largeImageText": "Dregora - 1.1.2b by Shivaxi",
+        "largeImageUrl": "",
+        "smallImageKey": "sleep",
+        "smallImageText": "Away From Keyboard (AFK) - {general.mods} mods loaded/installed",
+        "smallImageUrl": "",
+        "startTimestamp": "{data.general.time}",
+        "endTimestamp": "",
+        "buttons": {
+          "button_1": {
+            "label": "Check out the Modpack!",
+            "url": "https://www.curseforge.com/minecraft/modpacks/rlcraft-dregora"
+          }
+        }
+      }
+    },
+    "loadingData": {
+      "textOverride": "Loading...",
+      "data": {
+        "enabled": true,
+        "useAsMain": true,
+        "isInstance": false,
+        "activityType": 0,
+        "statusDisplayType": 0,
+        "partyPrivacy": 1,
+        "details": "",
+        "detailsUrl": "",
+        "gameState": "",
+        "gameStateUrl": "",
+        "appName": "",
+        "largeImageKey": "icon",
+        "largeImageText": "",
+        "largeImageUrl": "",
+        "smallImageKey": "",
+        "smallImageText": "",
+        "smallImageUrl": "",
+        "startTimestamp": "{data.general.time}",
+        "endTimestamp": "",
+        "buttons": {
+          "button_1": {
+            "label": "Check out the Modpack!",
+            "url": "https://www.curseforge.com/minecraft/modpacks/rlcraft-dregora"
+          }
+        }
+      }
+    },
+    "lanData": {
+      "textOverride": "Playing on a LAN Server",
+      "data": {
+        "enabled": true,
+        "useAsMain": true,
+        "isInstance": false,
+        "activityType": 0,
+        "statusDisplayType": 0,
+        "partyPrivacy": 1,
+        "details": "Suffering together",
+        "detailsUrl": "",
+        "gameState": "Exploring the {biome.name}",
+        "gameStateUrl": "",
+        "appName": "",
+        "largeImageKey": "icon",
+        "largeImageText": "",
+        "largeImageUrl": "",
+        "smallImageKey": "",
+        "smallImageText": "",
+        "smallImageUrl": "",
+        "startTimestamp": "",
+        "endTimestamp": "",
+        "buttons": {}
+      }
+    },
+    "singleplayerData": {
+      "textOverride": "Suffering in lonely mode",
+      "data": {
+        "enabled": true,
+        "useAsMain": true,
+        "isInstance": false,
+        "activityType": 0,
+        "statusDisplayType": 0,
+        "partyPrivacy": 1,
+        "details": "Suffering in lonely mode",
+        "detailsUrl": "",
+        "gameState": "Exploring the {biome.name}",
+        "gameStateUrl": "",
+        "appName": "",
+        "largeImageKey": "icon",
+        "largeImageText": "v1.1.2b by Shivaxi",
+        "largeImageUrl": "",
+        "smallImageKey": "",
+        "smallImageText": "",
+        "smallImageUrl": "",
+        "startTimestamp": "{data.general.time}",
+        "endTimestamp": "",
+        "buttons": {
+          "button_1": {
+            "label": "Check out the Modpack!",
+            "url": "https://www.curseforge.com/minecraft/modpacks/rlcraft-dregora"
+          }
+        }
+      }
+    },
+    "realmData": {
+      "textOverride": "Playing on {server.motd.raw}",
+      "data": {
+        "enabled": true,
+        "useAsMain": true,
+        "isInstance": false,
+        "activityType": 0,
+        "statusDisplayType": 0,
+        "partyPrivacy": 1,
+        "details": "Suffering in {server.name}",
+        "detailsUrl": "",
+        "gameState": "Exploring the {biome.name}",
+        "gameStateUrl": "",
+        "appName": "",
+        "largeImageKey": "icon",
+        "largeImageText": "v1.1.2b by Shivaxi",
+        "largeImageUrl": "",
+        "smallImageKey": "realmicon",
+        "smallImageText": "{server.motd.raw}",
+        "smallImageUrl": "",
+        "startTimestamp": "{data.general.time}",
+        "endTimestamp": "",
+        "buttons": {
+          "button_1": {
+            "label": "Check out the Modpack!",
+            "url": "https://www.curseforge.com/minecraft/modpacks/rlcraft-dregora"
+          }
+        }
+      }
+    }
+  },
+  "advancedSettings": {
+    "enablePerGui": true,
+    "enablePerItem": false,
+    "enablePerEntity": false,
+    "formatWords": true,
+    "debugMode": false,
+    "verboseMode": false,
+    "refreshRate": 2,
+    "allowPlaceholderPreviews": false,
+    "guiSettings": {
+      "fallbackGuiIcon": "unknown",
+      "guiData": {
+        "GuiDownloadTerrain": {
+          "data": {
+            "enabled": true,
+            "useAsMain": true,
+            "isInstance": false,
+            "activityType": 0,
+            "statusDisplayType": 0,
+            "partyPrivacy": 1,
+            "details": "{player.name} is joining a game",
+            "detailsUrl": "",
+            "gameState": "Joining Game",
+            "gameStateUrl": "",
+            "appName": "",
+            "largeImageKey": "icon",
+            "largeImageText": "v1.1.2b by Shivaxi",
+            "largeImageUrl": "",
+            "smallImageKey": "srvloading",
+            "smallImageText": "Joining Server... - {general.mods} mods installed",
+            "smallImageUrl": "",
+            "startTimestamp": "{data.general.time}",
+            "endTimestamp": "",
+            "buttons": {
+              "button_1": {
+                "label": "Check out the Modpack!",
+                "url": "https://www.curseforge.com/minecraft/modpacks/rlcraft-dregora"
+              }
+            }
+          }
+        },
+        "default": {
+          "textOverride": "In {screen.name}"
+        },
+        "GuiScreenRealmsProxy": {
+          "data": {
+            "enabled": true,
+            "useAsMain": true,
+            "isInstance": false,
+            "activityType": 0,
+            "statusDisplayType": 0,
+            "partyPrivacy": 1,
+            "details": "{player.name} is looking for a Realm",
+            "detailsUrl": "",
+            "gameState": "Browsing Realms",
+            "gameStateUrl": "",
+            "appName": "",
+            "largeImageKey": "icon",
+            "largeImageText": "v1.1.2b by Shivaxi",
+            "largeImageUrl": "",
+            "smallImageKey": "realmicon",
+            "smallImageText": "Looking for Realms... - {general.mods} mods installed",
+            "smallImageUrl": "",
+            "startTimestamp": "{data.general.time}",
+            "endTimestamp": "",
+            "buttons": {
+              "button_1": {
+                "label": "Check out the Modpack!",
+                "url": "https://www.curseforge.com/minecraft/modpacks/rlcraft-dregora"
+              }
+            }
+          }
+        },
+        "GuiDisconnected": {
+          "data": {
+            "enabled": true,
+            "useAsMain": true,
+            "isInstance": false,
+            "activityType": 0,
+            "statusDisplayType": 0,
+            "partyPrivacy": 1,
+            "details": "{player.name} is looking for a server",
+            "detailsUrl": "",
+            "gameState": "Searching for friends",
+            "gameStateUrl": "",
+            "appName": "",
+            "largeImageKey": "icon",
+            "largeImageText": "v1.1.2b by Shivaxi",
+            "largeImageUrl": "",
+            "smallImageKey": "srvsearch",
+            "smallImageText": "Looking for Servers... - {general.mods} mods installed",
+            "smallImageUrl": "",
+            "startTimestamp": "{data.general.time}",
+            "endTimestamp": "",
+            "buttons": {
+              "button_1": {
+                "label": "Check out the Modpack!",
+                "url": "https://www.curseforge.com/minecraft/modpacks/rlcraft-dregora"
+              }
+            }
+          }
+        },
+        "GuiScreenWorking": {
+          "data": {
+            "enabled": true,
+            "useAsMain": true,
+            "isInstance": false,
+            "activityType": 0,
+            "statusDisplayType": 0,
+            "partyPrivacy": 1,
+            "details": "{player.name} is joining a game",
+            "detailsUrl": "",
+            "gameState": "Joining Game",
+            "gameStateUrl": "",
+            "appName": "",
+            "largeImageKey": "icon",
+            "largeImageText": "v1.1.2b by Shivaxi",
+            "largeImageUrl": "",
+            "smallImageKey": "srvloading",
+            "smallImageText": "Joining Server... - {general.mods} mods installed",
+            "smallImageUrl": "",
+            "startTimestamp": "{data.general.time}",
+            "endTimestamp": "",
+            "buttons": {
+              "button_1": {
+                "label": "Check out the Modpack!",
+                "url": "https://www.curseforge.com/minecraft/modpacks/rlcraft-dregora"
+              }
+            }
+          }
+        },
+        "GuiMultiplayer": {
+          "data": {
+            "enabled": true,
+            "useAsMain": true,
+            "isInstance": false,
+            "activityType": 0,
+            "statusDisplayType": 0,
+            "partyPrivacy": 1,
+            "details": "{player.name} is looking for a server",
+            "detailsUrl": "",
+            "gameState": "Searching for friends",
+            "gameStateUrl": "",
+            "appName": "",
+            "largeImageKey": "icon",
+            "largeImageText": "v1.1.2b by Shivaxi",
+            "largeImageUrl": "",
+            "smallImageKey": "srvsearch",
+            "smallImageText": "Looking for Servers... - {general.mods} mods installed",
+            "smallImageUrl": "",
+            "startTimestamp": "{data.general.time}",
+            "endTimestamp": "",
+            "buttons": {
+              "button_1": {
+                "label": "Check out the Modpack!",
+                "url": "https://www.curseforge.com/minecraft/modpacks/rlcraft-dregora"
+              }
+            }
+          }
+        }
+      }
+    },
+    "itemMessages": {
+      "default": "Holding {item.message.holding}"
+    },
+    "entitySettings": {
+      "fallbackEntityIcon": "unknown",
+      "targetData": {
+        "default": {
+          "textOverride": "Targeting {entity.target.name}"
+        }
+      },
+      "ridingData": {
+        "default": {
+          "textOverride": "Riding {entity.riding.name}"
+        }
+      }
+    },
+    "allowEndpointIcons": true,
+    "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
+    "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
+    "allowDuplicatePackets": false,
+    "maxConnectionAttempts": 10,
+    "enableClassGraph": false
+  },
+  "accessibilitySettings": {
+    "languageId": "en_us",
+    "stripTranslationColors": false,
+    "stripTranslationFormatting": false,
+    "stripExtraGuiElements": false,
+    "configKeyCode": 0
+  },
+  "displaySettings": {
+    "presenceData": {
+      "enabled": true,
+      "useAsMain": true,
+      "isInstance": false,
+      "activityType": 4,
+      "statusDisplayType": 0,
+      "partyPrivacy": 1,
+      "details": "Playing Minecraft",
+      "detailsUrl": "",
+      "gameState": "",
+      "gameStateUrl": "",
+      "appName": "",
+      "largeImageKey": "icon",
+      "largeImageText": "Dregora - 1.1.1 by Shivaxi",
+      "largeImageUrl": "",
+      "smallImageKey": "mclogo",
+      "smallImageText": "{general.mods} mods installed",
+      "smallImageUrl": "",
+      "startTimestamp": "{data.general.time}",
+      "endTimestamp": "",
+      "buttons": {
+        "button_1": {
+          "label": "Check out the Modpack!",
+          "url": "https://www.curseforge.com/minecraft/modpacks/rlcraft-dregora"
+        }
+      }
+    },
+    "dynamicIcons": {},
+    "dynamicVariables": {
+      "mods": "{general.mods} Mod(s)",
+      "player_info_coordinate": "At {player.position.x}, {player.position.z}",
+      "players": "{server.players.current} / {server.players.max} Players",
+      "player_info_in": "({custom.player_info.health})",
+      "player_info_items": "Items: {item.main_hand.message}",
+      "player_info_out": "As {player.name}",
+      "player_info_health": "Health: {player.health.current}/{player.health.max}",
+      "world_info": "On {world.name}",
+      "pack": "{pack.name}"
+    }
+  }
+}

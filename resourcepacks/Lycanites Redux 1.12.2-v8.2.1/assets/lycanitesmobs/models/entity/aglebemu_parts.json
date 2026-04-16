@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Body",
+    "parent": "",
+    "centerX": "0.0",
+    "centerY": "0.5",
+    "centerZ": "-0.2"
+  },
+  {
+    "name": "LegRightFront",
+    "parent": "Body",
+    "centerX": "-0.35",
+    "centerY": "0.45",
+    "centerZ": "0.4"
+  },
+  {
+    "name": "LegRightBack",
+    "parent": "Body",
+    "centerX": "-0.25",
+    "centerY": "0.45",
+    "centerZ": "-0.7"
+  },
+  {
+    "name": "LegLeftFront",
+    "parent": "Body",
+    "centerX": "0.35",
+    "centerY": "0.45",
+    "centerZ": "0.4"
+  },
+  {
+    "name": "LegLeftBack",
+    "parent": "Body",
+    "centerX": "0.25",
+    "centerY": "0.45",
+    "centerZ": "-0.7"
+  },
+  {
+    "name": "Head",
+    "parent": "Body",
+    "centerX": "0.0",
+    "centerY": "0.7",
+    "centerZ": "0.65"
+  },
+  {
+    "name": "Mouth",
+    "parent": "Head",
+    "centerX": "0.0",
+    "centerY": "0.65",
+    "centerZ": "0.6"
+  },
+  {
+    "name": "Tongue",
+    "parent": "Mouth",
+    "centerX": "0.0",
+    "centerY": "0.68",
+    "centerZ": "0.52"
+  }
+]

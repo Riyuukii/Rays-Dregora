@@ -1,0 +1,28 @@
+container.wearablebackpacks.backpack=§6Rygsæk
+
+item.wearablebackpacks.backpack.name=Rygsæk
+
+tooltip.wearablebackpacks.moreInfo=Hold %1$s inde for mere information.
+tooltip.wearablebackpacks.openHint=Tryk %1$s for at åbne når rygsækken er på.
+tooltip.wearablebackpacks.equipHint=Sæt ned og ødelæg\nmens du sniger for at tage den på.
+tooltip.wearablebackpacks.equipHint.extended=Snig og ødelæg for at tage på.\nSnig og højreklik jorden\nmed tomme hænder for\nat tage af.
+tooltip.wearablebackpacks.unequipHint=Snig og højreklik jorden\nmed tomme hænder for at tage af.
+tooltip.wearablebackpacks.used=Bliver brugt af spiller.
+
+chat.wearablebackpacks.cantEquip=Du har allerede en rygsæk på.
+
+key.wearablebackpacks.open=Åben rygsæk
+
+config.wearablebackpacks.general.enableEquippedInteraction=Slå "Equipped Interaction" til
+config.wearablebackpacks.general.enableEquippedInteraction.tooltip=Styrer om spillere kan åbne rygsække på ryggen af andre.
+config.wearablebackpacks.general.enableSelfInteraction=Slå "Self Interaction" til
+config.wearablebackpacks.general.enableSelfInteraction.tooltip=Styrer om spillere kan åbne deres egne rygsække med en genvejstast.
+config.wearablebackpacks.general.dropAsBlockOnDeath=Dropper som blok, når man dør
+config.wearablebackpacks.general.dropAsBlockOnDeath.tooltip=Styrer om en rygsæk skal sætte sig selv på jorden i stedet for at sprede sit indhold, når man dør.
+
+config.wearablebackpacks.entity.spawnNaturally=Spawn Naturligt
+config.wearablebackpacks.entity.spawnNaturally.tooltip=Styrer om mobs, der spawner naturligt, kan spawne med rygsække på
+config.wearablebackpacks.entity.spawnFromSpawners=Spawn fra Spawners
+config.wearablebackpacks.entity.spawnFromSpawners.tooltip=Styrer om mobs, der spawner fra mob spawners, kan spawne med rygsække på
+config.wearablebackpacks.cosmetic.enchantEffectOpacity=Enchant-Effekt Gennemsigtighed
+config.wearablebackpacks.cosmetic.enchantEffectOpacity.tooltip=Styrer synligheden af enchanted-effekten på rygsække på ryggen eller jorden.

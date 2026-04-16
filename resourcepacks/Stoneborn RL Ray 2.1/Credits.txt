@@ -1,0 +1,19 @@
+Sindavar33 for making Stoneborn (best UI texture pack - I Can Not Get Enough of it) also included some of the Future UIs for the Future mc mod.
+
+Baubles, ice and fire, toolbelt, trash slot and JEI are adapted from consistency made by nezumihsan, tweaked and improved by me
+
+Appleskin & quark UI and icons adapted from MEI addon by MeixDev (except the note block piano UI, That's made by me), included and tweaked by me to work for 1.12
+
+Simple Storage Network and Storage Drawers Textures are from STONEBORN - 1.18 - EXTENDED V1.3 By
+Fioponator, Included and tweaked by me to work for 1.12
+
+credits for the textures/things goes to these awesome lads
+
+And thanks to vizthex for helping me figure out many things
+
+Shield of honor texture by Lenko on reddit (will remove that anytime if he felt uncomfortable)
+
+and a special thanks to Shionbryan for fixing an issue with the reskillables .lang file coloring and allowing me to use his texture of Equality sign.
+
+
+And a special thanks to myself for making this pack :) by Arashy

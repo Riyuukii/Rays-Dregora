@@ -1,0 +1,1034 @@
+itemGroup.trinketstab=Trinkets
+xat.config.title=Trinkets and Baubles
+
+xat.exampletext.start= 这些信息是示例文本,它们不会在游戏中显示。
+xat.exampletext.1= 物品提示最多 10 条
+xat.exampletext.2= item.item.glow_ring.0.tooltip1，item.glow_ring.0.tooltip2，等。
+xat.exampletext.3= 每个物品可以有 3 条联动其他 mod 的文本，比如
+xat.exampletext.4= item.item.glow_ring.0.compat.tan= 与 Tough as Nails 联动
+xat.exampletext.5= item.item.glow_ring.0.compat.firstaid= 与 First Aid 联动
+xat.exampletext.6= item.item.glow_ring.0.compat.enhancedvisuals= 与 EnhancedVisuals 联动
+xat.exampletext.end=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+xat.holdshift=<按住 Shift>
+xat.holdctrl=<按住 Ctrl>
+xat.noattributes=这个物品不提供任何属性
+xat.onequip=装备时：
+xat.tooltip.attackspeed=攻击速度
+xat.tooltip.attackdamage=攻击伤害
+xat.tooltip.health=生命值
+xat.tooltip.armor=护甲值
+xat.tooltip.toughness=盔甲韧性
+xat.tooltip.knockbackresist=击退抗性
+xat.tooltip.movementspeed=移动速度
+xat.tooltip.luck=幸运
+xat.tooltip.swimspeed=游泳速度
+xat.tooltip.reach=触及距离
+xat.tooltip.stepheight=步行高度
+xat.tooltip.jumpheight=跳跃高度
+xat.tooltip.on=§r(§a打开§r)
+xat.tooltip.off=§r(§c关闭§r)
+xat.tooltip.enabled=§r[§a启用§r]
+xat.tooltip.disabled=§r[§c禁用§r]
+
+key.xat.category=Trinkets and Baubles
+key.xat.trinket_target.desc=巨龙之眼：切换
+key.xat.trinket_toggle_effect.desc=巨龙之眼：切换夜视
+key.xat.magnet_toggle_effect.desc=磁石：切换磁性
+key.xat.aux_key.desc=辅助键
+key.xat.trinket_gui.desc=饰品 Gui
+
+key.xat.trinket_arcing_attack.desc=电弧球：攻击
+key.xat.race_ability.desc=种族能力
+
+gui.xat.button.open=打开
+gui.xat.button.close=关闭
+
+attribute.name.xat.entityRace=魔法种族
+
+entity.AlphaWolf.name=狼王
+
+ability.block_detection.name=§a贪婪之眼
+ability.block_detection.tooltip1=给与使用者发现附近宝藏的能力
+ability.block_detection.tooltip2=按下 *deofkb: = 下一个目标
+ability.block_detection.tooltip3=按下 *auxkb:+*deofkb: = 上一个目标
+ability.night_vision.name=§e夜视
+ability.night_vision.tooltip1=§2获得夜视
+ability.night_vision.tooltip2=按下 *denvkb: 切换夜视
+ability.creative_flight.name=§6飞行
+ability.creative_flight.tooltip1=创造模式飞行
+ability.creative_flight.tooltip2=双击跳跃键开始飞行，再次双击以停止飞行
+ability.creative_flight.tooltip3=免疫摔落伤害
+ability.fire_immunity.name=§c火焰免疫
+ability.fire_immunity.tooltip1=§6免疫火焰和熔岩
+ability.fire_immunity.tooltip2=§不会着火
+ability.fire_immunity.tooltip3=§6不会被基于火焰的攻击伤害
+ability.fire_breathing.name=§c火焰吐息
+ability.fire_breathing.tooltip1=获得火焰吐息的能力
+ability.fire_breathing.tooltip2=按下 *firebreath: 消耗 $fbCost: MP 喷出火焰
+ability.block_climbing.name=攀爬
+ability.block_climbing.tooltip1=能够攀爬某些方块
+ability.wither_immunity.name=凋零免疫
+ability.wither_immunity.tooltip1=免疫凋零伤害
+ability.wither_immunity.tooltip2=攻击时有$witherchance:分之一的几率使敌人凋零
+ability.wither_immunity.tooltip3=攻击处在凋零效果的敌人时获得治疗
+ability.weightless.name=§d失重
+ability.weightless.tooltip1=失重
+ability.weightless.tooltip2=按住攻击键以上升，按住潜行键+攻击键以下降
+ability.well_rested.name=§b充分休息
+ability.well_rested.tooltip1=睡觉时获得数种效果
+ability.well_rested.tooltip2=@LycanitesFear:
+ability.well_rested.tooltip3=@LycanitesInsomnia:
+ability.poison_affinity.name=§2毒素亲和
+ability.poison_affinity.tooltip1=免疫中毒
+ability.poison_affinity.tooltip2=攻击时有$poisonchance:分之一的几率使敌人中毒
+ability.poison_affinity.tooltip3=攻击中毒的敌人时额外造成$poisonbonus:点伤害。
+ability.water_affinity.name=§9流水亲和
+ability.water_affinity.tooltip1=@SurvivalThirst:
+ability.water_affinity.tooltip2=游泳增强
+ability.fall_resistance.name=摔落抵抗
+ability.fall_resistance.tooltip1=获得$fallResist:点摔落伤害抵抗
+//ability.nullify_kinetic.name=动能免疫
+//ability.nullify_kinetic.tooltip1=免疫摔落和动能伤害
+ability.cold_immunity.name=§b寒冷免疫
+ability.cold_immunity.tooltip1=§6免疫寒冷和大多数冷源
+ability.heat_immunity.name=§c热量免疫
+ability.heat_immunity.tooltip1=§6免疫热量和大多数热源
+ability.thirst_immunity.name=脱水免疫
+ability.thirst_immunity.tooltip1=免疫脱水效果
+ability.parasites_immunity.name=寄生免疫
+ability.parasites_immunity.tooltip1=免疫饮水导致的寄生效果
+ability.ender_queen.name=§5末影王权
+ability.ender_queen.tooltip1=末影人将保护你
+ability.ender_queen.tooltip2=受到间接伤害时消耗魔力传送
+ability.ender_queen.tooltip3=水会伤害你
+ability.ender_queen.tooltip4=概率免疫伤害并召唤一个末影人
+ability.vicious_strike.name=§4残暴打击
+ability.vicious_strike.tooltip1=近战攻击时造成流血
+ability.magnetic.name=磁性
+ability.repel.name=强力排斥
+ability.skilled_miner.name=老练矿工
+ability.skilled_miner.tooltip1=挖矿时获得额外经验
+ability.skilled_miner.tooltip2=挖掘速度变为4倍方块硬度
+ability.psudo_fortune.name=§6伪运
+ability.psudo_fortune.tooltip1=你无需时运附魔即可获得时运效果
+ability.charged_shot.name=纯熟弓手
+ability.charged_shot.tooltip1=能够消耗魔力增强弓箭的力量
+ability.charged_shot.tooltip2=拉弓之前潜行
+ability.charged_shot.tooltip3=停止潜行时取消
+ability.charged_shot.tooltip4=弓箭完全充能时造成范围伤害和小型爆炸
+ability.lightning_bolt.name=§3光灵亲和
+ability.lightning_bolt.tooltip1=能消耗魔力值射出光灵箭
+ability.dodging.name=闪避
+ability.dodging.tooltip1=能够闪避并击晕周围的敌人
+ability.dodging.tooltip2=如果安装了 Elenai Dodge，使用该模组的闪避系统
+ability.large_hands.name=巨型手掌
+ability.large_hands.tooltip1=能够每次挖掘 3x3x3 的范围 
+ability.large_hands.tooltip2=潜行时挖掘以禁用
+ability.heavy.name=§c沉重
+ability.heavy.tooltip1=§c在水中下沉
+ability.heavy.tooltip2=§c践踏走过的耕地
+ability.safe_guard.name=§6安全守护
+ability.safe_guard.tooltip1=获得抗性提升
+ability.safe_guard.tooltip2=每受到伤害 $sohcount: 次免疫攻击
+
+ability.firstaid_reflex.name=快速反应
+ability.firstaid_reflex.tooltip1=概率免疫致命爆头伤害
+
+damagetype.xat.water=水
+death.attack.xat.water=%1$s died to %2$s while wearing an Ender Queen's Crown
+
+xat.jump=跳跃
+xat.stepheight=上坡高度
+xat.entityMagic.maxMana=Max Mana
+xat.entityMagic.regen=魔力值恢复
+attribute.name.xat.jump=跳跃
+attribute.name.xat.stepheight=上坡高度
+attribute.name.xat.entityMagic.maxMana=Max Mana
+attribute.name.xat.entityMagic.regen=魔力值恢复
+
+####################################材料####################################
+
+item.glowing_powder.name=闪耀粉
+item.glowing_powder.tooltip1=1级制造材料
+
+item.glowing_ingot.name=§e闪耀锭
+item.glowing_ingot.tooltip1=§e2级制造材料
+
+item.glowing_gem.name=§6闪耀宝石
+item.glowing_gem.tooltip1=§63级制造材料
+
+item.mana_candy.name=§b魔法糖果
+
+item.mana_crystal.name=§6魔法水晶
+item.mana_crystal.tooltip1=§6+§b$mpmax:§6魔力值上限
+
+item.mana_reagent.name=§6魔法试剂
+item.mana_reagent.tooltip1=§c使用时有害
+item.mana_reagent.tooltip2=§c-§b$mpmax:§c 魔力值上限
+
+item.restoration_serum.name=§6恢复血清
+item.restoration_serum.tooltip1=逆转永久的种族变形效果
+item.restoration_serum.tooltip2=§c使用时有害
+
+####################################Materials End####################################
+
+####################################Trinkets####################################
+
+item.glow_ring.0.name=§6魔眼之戒
+item.glow_ring.0.tooltip1=§2获得夜视
+
+item.dwarf_ring.0.name=矮人之戒
+item.dwarf_ring.0.tooltip1=§6$rsize:正常体型
+item.dwarf_ring.0.tooltip2=@fortune:
+item.dwarf_ring.0.tooltip3=@skilledminer:
+item.dwarf_ring.0.tooltip4=@staticminer:
+item.dwarf_ring.0.fortune=§6伪运
+item.dwarf_ring.0.skilledminer=§2熟练矿工
+item.dwarf_ring.0.staticminer=§2平等挖掘
+
+item.elf_ring.0.name=§6精灵之戒
+item.elf_ring.0.tooltip1=§6$rsize:正常体型
+item.elf_ring.0.tooltip2=@chargeshot:
+item.elf_ring.0.tooltip3=§6在森林生物群系中获得移动速度和攻击速度加成
+item.elf_ring.0.chargeshot=§6潜行时增加弓箭伤害
+
+item.fairy_ring.0.name=仙子之戒
+item.fairy_ring.0.tooltip1=§6$rsize:正常体型
+item.fairy_ring.0.tooltip2=@creativeflight:
+item.fairy_ring.0.creativeflight=§6创造模式飞行
+
+item.faelis_ring.0.name=§6猫灵之戒
+item.faelis_ring.0.tooltip1=§6$rsize:正常体型
+item.faelis_ring.0.tooltip2=§a增加空手伤害
+item.faelis_ring.0.tooltip3=§a饮用牛奶时获得加成
+item.faelis_ring.0.tooltip4=§c装备重甲时降低移动速度
+
+item.goblin_ring.0.name=§6地精之戒
+item.goblin_ring.0.tooltip1=§6$rsize:正常体型
+item.goblin_ring.0.tooltip2=§6可以骑乘被驯服的狼
+item.goblin_ring.0.tooltip3=§6骑狼时获得力量和生命恢复
+item.goblin_ring.0.tooltip4=§a获得弱化火焰保护和弱化爆炸保护
+item.goblin_ring.0.tooltip5=§a爬行者会忽视你
+
+item.titan_ring.0.name=§6巨人之戒
+item.titan_ring.0.tooltip1=§6$rsize:正常体型
+item.titan_ring.0.tooltip2=§63x3x3挖掘范围
+item.titan_ring.0.tooltip3=§c@heavy:
+item.titan_ring.0.tooltip4=§c践踏植物
+item.titan_ring.0.heavy=§c在水中下沉
+
+item.dragon_ring.0.name=§6巨龙之戒
+item.dragon_ring.0.tooltip1=§6$rsize:标准体型
+item.dragon_ring.0.tooltip2=§6按住§r<§e*breathkb:§r>§6喷出火焰
+item.dragon_ring.0.tooltip3=§6获得防火
+item.dragon_ring.0.tooltip4=§2获得夜视 §r<§e*denvkb:§r>
+
+item.teddy_bear.0.name=泰迪熊
+item.teddy_bear.0.tooltip1=§6如果在装备时睡眠，提供增益效果
+item.teddy_bear.0.tooltip2=§6如果安装恐怖生物，移除失眠和恐惧
+
+item.weightless_stone.0.name=零重力之石
+item.weightless_stone.0.tooltip1=§2装备时忽略重力
+item.weightless_stone.0.tooltip2=<§e左击§r>以§2上升
+item.weightless_stone.0.tooltip3=<§e潜行§r>+<§e左击§r>以§2下降
+item.weightless_stone.0.tooltip4=§a持有时获得漂浮
+
+item.inertia_null_stone.0.name=零惯性之石
+item.inertia_null_stone.0.tooltip1=§6降低§3$inertianullfd:§r§6摔落伤害
+item.inertia_null_stone.0.tooltip2=§6降低§3$inertianullfd:§r§6动能伤害
+
+item.greater_inertia_stone.0.name=巨惯性之石
+item.greater_inertia_stone.0.tooltip1=§6降低§r§3$greaterinertiafd:§r§6摔落伤害
+
+item.sea_stone.0.name=海洋之石
+item.sea_stone.0.tooltip1=@bubbles:
+item.sea_stone.0.tooltip2=@betterswimming:
+item.sea_stone.0.bubbles=[§3$bubbles:§r]§6个气泡的无限氧气
+item.sea_stone.0.betterswimming=§2增强游泳
+item.sea_stone.0.compat.tan=@tanthirst:
+item.sea_stone.0.tanthirst=§6免疫脱水
+item.sea_stone.0.compat.enhancedvisuals=禁用水下模糊
+
+item.polarized_stone.0.name=磁石
+item.polarized_stone.0.tooltip1=@collect:
+item.polarized_stone.0.tooltip2=<§e*magnetkb:§r或§e右击§r>
+item.polarized_stone.0.tooltip3=@repel:
+item.polarized_stone.0.tooltip4=<§e*auxkb:§r + §e*magnetkb:§r 或§e潜行§r+§e右击§r>
+item.polarized_stone.0.collect=§6吸引附近的物品@collectxp:
+item.polarized_stone.0.collectxp=和经验球 $collecttoggle:
+item.polarized_stone.0.repel=§6排斥箭矢 $repeltoggle:
+item.polarized_stone.0.magnetmode=吸引模式 $collecttoggle:
+item.polarized_stone.0.repelmode=斥力模式 $repeltoggle:
+
+item.dragons_eye.0.name=巨龙之眼
+item.dragons_eye.0.ice.name=冰龙之眼
+item.dragons_eye.0.tooltip1=§6获得防火
+item.dragons_eye.0.tooltip2=§2获得夜视 §r<§e*denvkb:§r>
+item.dragons_eye.0.tooltip3=@treasurefinder:
+item.dragons_eye.0.tooltip4=@frostwalker:
+item.dragons_eye.0.treasurefinder=§6当前目标：§3#underline:$target:§r <§e*deofkb:§r>
+
+item.dragons_eye.0.treasurefinder.on=§6我需要更多的§f $target:§6 作为我的财宝 $looking:
+item.dragons_eye.0.treasurefinder.notfound=§6I'm unsure what my treasury currently needs. §c(Item not found, returned as $target:)
+item.dragons_eye.0.treasurefinder.off=我的财富够多了$looking:
+item.dragons_eye.0.compat.tan=$typeimmune:
+item.dragons_eye.0.heatimmune=§6免疫炽热
+item.dragons_eye.0.coldimmune=§6免疫冻伤
+item.dragons_eye.0.compat.enhancedvisuals=
+item.dragons_eye.0.compat.iaf.ice.frostwalker=§6获得§3冰霜行者
+
+item.poison_stone.0.name=剧毒之石
+item.poison_stone.0.tooltip1=§6免疫中毒
+item.poison_stone.0.tooltip2=§6免疫饥饿
+item.poison_stone.0.tooltip3=@poison:
+item.poison_stone.0.tooltip4=@bonusdamage:
+item.poison_stone.0.poison=§3$poisonchance:§2 概率使敌人中毒 §3$poisonduration:
+item.poison_stone.0.bonusdamage=§2敌人中毒时造成 $damagemultiplier: 伤害
+
+item.wither_ring.0.name=枯萎之戒
+item.wither_ring.0.tooltip1=§6免疫凋零
+item.wither_ring.0.tooltip2=@wither:
+item.wither_ring.0.tooltip3=@leech:
+item.wither_ring.0.wither=§3$witherchance:§2 几率使敌人凋零
+item.wither_ring.0.leech=§2敌人凋零时治疗§3$leechamount:§2心
+
+item.ender_tiara.0.name=末影女皇之冠
+item.ender_tiara.0.tooltip1=§6王权
+item.ender_tiara.0.tooltip2=§2末影人为你作战 @endermenfollow:
+item.ender_tiara.0.tooltip3=@damageignored:
+item.ender_tiara.0.tooltip4=@endermenchance:
+item.ender_tiara.0.tooltip5=@waterhurts:
+item.ender_tiara.0.damageignored=§3$chance: §6几率免疫伤害
+item.ender_tiara.0.endermenchance=§3$chance: §6几率生成一个末影人
+item.ender_tiara.0.endermenfollow=且跟随你
+item.ender_tiara.0.waterhurts=§c弱水
+item.ender_tiara.0.compat.tan=@coldimmune:
+item.ender_tiara.0.compat.enhancedvisuals=禁用末影人的静电干扰效果
+item.ender_tiara.0.coldimmune=§6免疫冻伤
+
+item.damage_shield.0.name=荣耀之盾
+item.damage_shield.0.tooltip1=§6装备时免疫$soheffect: 
+item.damage_shield.0.tooltip2=@explosionresist:
+item.damage_shield.0.tooltip3=@damageignored:
+item.damage_shield.0.explosionresist=§6降低§r §3$explosionresistamount: §r§6爆炸伤害
+item.damage_shield.0.damageignored=§6每受到§3$damageignoredhitcount:§6次攻击免疫下一次攻击
+//item.damage_shield.0.damageignored=§6Damage ignored: §3$damageignoredhitcount:/$cfghitcount:
+item.damage_shield.0.compat.firstaid=@headshots:
+item.damage_shield.0.headshots=§3$headshotchance:§6 几率免疫爆头
+item.damage_shield.0.compat.enhancedvisuals=禁用爆炸模糊
+
+item.arcing_orb.0.name=电弧球
+item.arcing_orb.0.tooltip1=§2获得双击闪避的能力 §3$dodgecost:MP
+item.arcing_orb.0.tooltip2=@dodgestun:
+item.arcing_orb.0.tooltip3=§6按住§r<§e*arckb:§r>§6释放一次闪电攻击
+item.arcing_orb.0.tooltip4=每§3$boltcost:MP 造成§3$boltdamage:§6伤害
+item.arcing_orb.0.dodgestun=§6闪避时击晕周围的敌人
+
+item.faelis_claw.0.name=猫爪
+item.faelis_claw.0.tooltip1=§6攻击敌人使其流血
+item.faelis_claw.0.tooltip2=§a流血会在$clawbleed:刻内每20刻造成1点伤害
+item.faelis_claw.0.tooltip3=§c不由猫灵触发时持续时间减少到1/3
+
+####################################Trinkets End####################################
+
+####################################Food####################################
+
+item.dwarf_stout.name=矮人烈酒
+item.dwarf_stout.tooltip1=§b我也许能通过饮用某种药水
+item.dwarf_stout.tooltip2=§b来移除这种效果
+item.dwarf_stout.tooltip3=<§9饮用恢复血清以恢复§r>
+
+item.fairy_dew.name=仙露
+item.fairy_dew.tooltip1=§b我也许能通过饮用某种药水
+item.fairy_dew.tooltip2=§b来移除这种效果
+item.fairy_dew.tooltip3=<§9饮用恢复血清以恢复§r>
+
+item.titan_spirit.name=巨人之灵
+item.titan_spirit.tooltip1=§b我也许能通过饮用某种药水
+item.titan_spirit.tooltip2=§b来移除这种效果
+item.titan_spirit.tooltip3=<§9饮用恢复血清以恢复§r>
+
+item.elf_sap.name=精灵之息
+item.elf_sap.tooltip1=§b我也许能通过饮用某种药水
+item.elf_sap.tooltip2=§b来移除这种效果
+item.elf_sap.tooltip3=<§9饮用恢复血清以恢复§r>
+
+item.goblin_soup.name=地精之汤
+item.goblin_soup.tooltip1=§b我也许能通过饮用某种药水
+item.goblin_soup.tooltip2=§b来移除这种效果
+item.goblin_soup.tooltip3=<§9饮用恢复血清以恢复§r>
+
+item.faelis_food.name=猫薄荷
+item.faelis_food.tooltip1=§b我也许能通过饮用某种药水
+item.faelis_food.tooltip2=§b来移除这种效果
+item.faelis_food.tooltip3=<§9饮用恢复血清以恢复§r>
+
+item.dragon_gem.name=巨龙宝石
+item.dragon_gem.tooltip1=§b我也许能通过饮用某种药水
+item.dragon_gem.tooltip2=§b来移除这种效果
+item.dragon_gem.tooltip3=<§9饮用恢复血清以恢复§r>
+
+####################################Food End####################################
+
+
+####################################Potions####################################
+
+potion.effect.xat.sparkling=闪烁药水
+splash_potion.effect.xat.sparkling=喷溅型闪烁药水
+lingering_potion.effect.xat.sparkling=滞留型闪烁药水
+tipped_arrow.effect.xat.sparkling=闪烁之箭
+xat.effect.sparkling=闪烁
+xat.item.potion.sparkling.tooltip1=§6治疗 25% 最大生命值
+xat.item.potion.sparkling.tooltip2=§6回复 25% 魔力
+
+potion.effect.xat.glittering=闪光药水
+splash_potion.effect.xat.glittering=喷溅型闪光药水
+lingering_potion.effect.xat.glittering=滞留型闪光药水
+tipped_arrow.effect.xat.glittering=闪光之箭
+xat.effect.glittering=闪光
+xat.item.potion.glittering.tooltip1=§6治疗 50% 最大生命值
+xat.item.potion.glittering.tooltip2=§6恢复 50% 魔力
+
+potion.effect.xat.glowing=辉光药水
+splash_potion.effect.xat.glowing=喷溅型辉光药水
+lingering_potion.effect.xat.glowing=滞留型辉光药水
+tipped_arrow.effect.xat.glowing=辉光之箭
+xat.effect.glowing=辉光
+xat.item.potion.glowing.tooltip1=§6治疗 100% 生命值
+xat.item.potion.glowing.tooltip2=§6恢复 100% 魔力
+
+potion.effect.xat.ice_resistance=冰霜抗性药水
+splash_potion.effect.xat.ice_resistance=喷溅型冰霜抗性药水
+lingering_potion.effect.xat.ice_resistance=滞留型冰霜抗性药水
+tipped_arrow.effect.xat.ice_resistance=冰霜抗性之箭
+xat.effect.ice_resistance=冰霜抗性
+
+potion.effect.xat.restorative=恢复药水
+splash_potion.effect.xat.restorative=喷溅型恢复药水
+lingering_potion.effect.xat.restorative=滞留型恢复药水
+tipped_arrow.effect.xat.restorative=恢复之箭
+xat.effect.restorative=恢复
+xat.item.potion.restorative.tooltip1=§6治疗 100% 生命值
+xat.item.potion.restorative.tooltip2=§6移除药水效果
+xat.item.potion.restorative.tooltip3=§6移除魔法食物的变形效果
+
+potion.effect.xat.human=人类变形药水
+splash_potion.effect.xat.human=喷溅型人类变形药水
+lingering_potion.effect.xat.human=滞留型人类变形药水
+tipped_arrow.effect.xat.human=人类变形药水
+xat.effect.human=人类
+xat.item.potion.human.tooltip1=变形为人类 $humanticks: 秒
+
+potion.effect.xat.fairy=仙子变形药水
+splash_potion.effect.xat.fairy=喷溅型仙子变形药水
+lingering_potion.effect.xat.fairy=滞留型仙子变形药水
+tipped_arrow.effect.xat.fairy=仙子变形之箭
+xat.effect.fairy=仙子
+xat.item.potion.fairy.tooltip1=变形为仙子$fairyticks:秒
+
+potion.effect.xat.dwarf=矮人变形药水
+splash_potion.effect.xat.dwarf=喷溅型矮人变形药水
+lingering_potion.effect.xat.dwarf=滞留型矮人变形药水
+tipped_arrow.effect.xat.dwarf=矮人变形之箭
+xat.effect.dwarf=矮人
+xat.item.potion.dwarf.tooltip1=变形为矮人$dwarfticks:秒
+
+potion.effect.xat.titan=巨人变形药水
+splash_potion.effect.xat.titan=喷溅型巨人变形药水
+lingering_potion.effect.xat.titan=滞留型巨人变形药水
+tipped_arrow.effect.xat.titan=巨人变形之箭
+xat.effect.titan=巨人
+xat.item.potion.titan.tooltip1=变形为巨人$titanticks:秒
+
+potion.effect.xat.goblin=地精变形药水
+splash_potion.effect.xat.goblin=喷溅型地精变形药水
+lingering_potion.effect.xat.goblin=滞留型地精变形药水
+tipped_arrow.effect.xat.goblin=地精变形之箭
+xat.effect.goblin=地精
+xat.item.potion.goblin.tooltip1=变形为地精$goblinticks:秒
+
+potion.effect.xat.elf=精灵变形药水
+splash_potion.effect.xat.elf=喷溅型精灵变形药水
+lingering_potion.effect.xat.elf=滞留型精灵变形药水
+tipped_arrow.effect.xat.elf=精灵变形之箭
+xat.effect.elf=精灵
+xat.item.potion.elf.tooltip1=变形为精灵$elfticks:秒
+
+potion.effect.xat.faelis=猫灵变形药水
+splash_potion.effect.xat.faelis=喷溅型猫灵变形药水
+lingering_potion.effect.xat.faelis=滞留型猫灵变形药水
+tipped_arrow.effect.xat.faelis=猫灵变形之箭
+xat.effect.faelis=猫灵
+xat.item.potion.faelis.tooltip1=变形为猫灵 $faelisticks: 秒
+
+potion.effect.xat.dragon=巨龙变形药水
+splash_potion.effect.xat.dragon=喷溅型巨龙变形药水
+lingering_potion.effect.xat.dragon=滞留型巨龙变形药水
+tipped_arrow.effect.xat.dragon=巨龙变形之箭
+xat.effect.dragon=巨龙
+xat.item.potion.dragon.tooltip1=变形为巨龙$dragonticks:秒
+
+####################################Potions End####################################
+
+####################################Blocks####################################
+
+tile.moon_rose.name=月光玫瑰
+tile.moon_rose.tooltip1=§b被施加了魔法的花朵
+tile.moon_rose.tooltip2=§b<你感受到其中散发出强烈的魔法波动>
+
+####################################Blocks End####################################
+
+########################################Client Settings##########################################
+
+xat.config.client.settings=客户端设置
+xat.config.client.settings.tooltip=仅对视觉效果进行设置。
+
+xat.config.client.debug.settings=故障排除工具
+xat.config.client.debug.materials=显示盔甲材料
+xat.config.client.debug.slots=显示栏位ID
+xat.config.client.debug.oredict=现实矿辞实体
+xat.config.client.debug.speed=Show Movement Speed
+
+xat.config.client.gui.settings=Trinkets Container
+xat.config.client.gui.settings.tooltip=Settings regarding the Trinkets Container on the client.
+
+xat.config.client.magic.hud.settings=Mana Bar Settings
+xat.config.client.magic.hud.shown=Render Mana Bar
+xat.config.client.magic.hud.shown.always=Render Mana Bar Always
+xat.config.client.magic.hud.horizontal=Horizontal Rendering
+xat.config.client.magic.hud.text.shown=Hide Text
+xat.config.client.magic.hud.location.x=Location X
+xat.config.client.magic.hud.location.y=Location Y
+xat.config.client.magic.hud.width=Width
+xat.config.client.magic.hud.height=Height
+
+xat.config.client.camera.adjustments=Pov Adjustments
+xat.config.client.camera.adjustments.tooltip=Adjusts players eye height when transformed
+
+xat.config.client.render.trinkets.all=Render Trinkets
+xat.config.client.render.trinkets.all.tooltip=Main Render Control for all Trinkets
+xat.config.client.render.trinket=Render Trinket
+xat.config.client.render.trinket.tooltip=Render Trinket effects on the player
+
+xat.config.client.render.entity.renderer.replace=Replace EntityRenderer
+xat.config.client.render.entity.renderer.replace.tooltip=When using the Enchanted Race rings, should Trinkets and Baubles Replace the EntityRenderer to solve some of the camera clipping issues?
+xat.config.client.render.entity.renderer.replace.fog=EntityRenderer Fog
+xat.config.client.render.entity.renderer.replace.fog.tooltip=When the Trinket and Baubles custom EntityRenderer breaks certain settings with Optifine, specifically fog, use this to toggle fog for compatibility.
+
+xat.config.client.race.properties.gui.settings=Race Properties Gui
+xat.config.client.race.properties.gui.shown=Race Properties Button
+
+#####################################[Food Configs]#####################################
+
+xat.config.server.food.settings=Magic Food Settings
+xat.config.server.food.settings.tooltip=Settings regarding the transformation foods.
+
+xat.config.server.food.registry.enabled=Foods Enabled
+xat.config.server.food.registry.enabled.tooltip=If Trinkets and Baubles Food Items Should be added to the Registry on Load
+xat.config.server.food.transformation.effect=Transformative Effects
+xat.config.server.food.transformation.effect.tooltip=Whether magical foods should transform the player when consumed.
+xat.config.server.food.transformation.effect.keep=Keep Effect
+xat.config.server.food.transformation.effect.keep.tooltip=Whether the player should keep race transformations after death or not.
+
+#####################################[Food Configs End]#####################################
+
+#####################################[Potion Configs]#####################################
+
+xat.config.server.potion.registry.enabled=Potions Enabled
+xat.config.server.potion.registry.enabled.tooltip=Should Trinkets and Baubles Potions Be Added to the Registry on Load
+xat.config.server.potion.toughasnails.water=Potions Give Water
+xat.config.server.potion.toughasnails.water.tooltip=If Tough as Nails is installed, Potions give water
+
+xat.config.server.potion.catalyst=Catalyst
+xat.config.server.potion.catalyst.tooltip=This is the Item Used to Craft this Potion in a Brewing Stand
+xat.config.server.potion.duration=Duration
+xat.config.server.potion.duration.tooltip=How Long in Ticks the Tranformation Lasts
+
+xat.config.server.potion.restore.catalyst=Restoration Potion Catalyst
+xat.config.server.potion.restore.catalyst.tooltip=This is the Item Used to Craft this Potion in a Brewing Stand
+
+xat.config.server.potion.dwarf=Dwarf Potion
+xat.config.server.potion.dwarf.tooltip=
+xat.config.server.potion.elf=Elf Potion
+xat.config.server.potion.elf.tooltip=
+xat.config.server.potion.fairy=Fairy Potion
+xat.config.server.potion.fairy.tooltip=
+xat.config.server.potion.goblin=Goblin Potion
+xat.config.server.potion.goblin.tooltip=
+xat.config.server.potion.titan=Titan Potion
+xat.config.server.potion.titan.tooltip=
+xat.config.server.potion.faelis=Faelis Potion
+xat.config.server.potion.faelis.tooltip=
+xat.config.server.potion.dragon=Dragon Potion
+xat.config.server.potion.dragon.tooltip=
+xat.config.server.potion.human=Normie Potion
+xat.config.server.potion.human.tooltip=
+
+xat.config.server.potion.playersonly=Potions work on Players only
+xat.config.server.potion.playersonly.tooltip=Whether the transformation potions should only work on players or if they should work on all mobs. Transformation potions are buggy when used on non-player mobs.
+
+#####################################[Potion Configs End]#####################################
+
+#####################################[Item Configs]#####################################
+
+xat.config.items=Item Settings
+xat.config.items.transformation=Transformation Items
+
+xat.config.glow_ring=魔眼之戒设置
+xat.config.glow_ring.tooltip=
+
+xat.config.weightless_stone=零重力之石
+xat.config.weightless_stone.tooltip=
+
+xat.config.dragons_eye=巨龙之眼设置
+xat.config.dragons_eye.tooltip=
+
+xat.config.server.dragons_eye.orefinder=Treasure Finder
+xat.config.server.dragons_eye.orefinder.tooltip=Can The Dragon's Eye Detect Nearby Blocks
+xat.config.server.dragons_eye.orefinder.range=Treasure Finder Range
+xat.config.server.dragons_eye.orefinder.range.tooltip=WARNING! SETTING THESE VALUES TOO HIGH WILL CAUSE YOU TO LAG. Try to Keep within a range of 4-16
+xat.config.server.dragons_eye.orefinder.range.vertical=Vertical Distance
+xat.config.server.dragons_eye.orefinder.range.vertical.tooltip=How Far Vertically(Up, Down) in Blocks the Dragon's Eye effect triggers. Default 6, MIN 0, MAX 32
+xat.config.server.dragons_eye.orefinder.range.horizontal=Horizontal Distance
+xat.config.server.dragons_eye.orefinder.range.horizontal.tooltip=How Far Horizontally(N, E, S, W) in Blocks the Dragon's Eye effect triggers. Default 12, MIN 0, MAX 32
+xat.config.server.dragons_eye.orefinder.blocks=Block Settings
+xat.config.server.dragons_eye.orefinder.blocks.tooltip=
+xat.config.server.dragons_eye.orefinder.blocks.list=Treasure Finder Block list
+xat.config.server.dragons_eye.orefinder.blocks.list.tooltip=What the Treasure Finding Feature of the Dragon's Eye can Detect
+xat.config.server.dragons_eye.toughasnails.immunity.heat=Immune to Heat
+xat.config.server.dragons_eye.toughasnails.immunity.heat.tooltip=If Tough as Nails is Installed Should the player be Immune to Heat
+
+xat.config.server.dragons_eye.iceandfire.recipe.stage=Skull Stage
+xat.config.server.dragons_eye.iceandfire.recipe.stage.tooltip=If Ice and Fire is Installed, Should the Dragon's Eye Require a Specific Stage of Skull for the recipe. Set to 0 for any stage
+xat.config.server.dragons_eye.iceandfire.ice.variant=Ice Variant
+xat.config.server.dragons_eye.iceandfire.ice.variant.tooltip=Should there be an Ice Variant of the Dragons eye
+xat.config.server.dragons_eye.iceandfire.ice.frostwalker=Frost Walker
+xat.config.server.dragons_eye.iceandfire.ice.frostwalker.tooltip=Should the Ice Variant have Frost Walker
+
+xat.config.client.dragons_eye.growl.enabled=Dragon's Growl
+xat.config.client.dragons_eye.growl.enabled.tooltip=When The Treasure Finder is Enabled, Should There be a Growl the Treasure Finder Pings Treasure
+xat.config.client.dragons_eye.growl.activation=Dragon's Growl Trigger
+xat.config.client.dragons_eye.growl.activation.tooltip=Determines When the Dragon's Growl Happens\nOptions:\nSNEAK\nSTAND\nBOTH
+xat.config.client.dragons_eye.growl.volume=Dragon's Growl Volume
+xat.config.client.dragons_eye.growl.volume.tooltip=Dragon's Growl Volume Control
+xat.config.client.dragons_eye.orefinder.refresh.rate=Refresh Rate
+xat.config.client.dragons_eye.orefinder.refresh.rate.tooltip=Determines of Often the Treasure Finder Pings for Treasure
+
+xat.config.ender_tiara=Ender Queen's Crown Settings
+xat.config.ender_tiara.tooltip=
+
+xat.config.server.ender_tiara.waterhurts=Water Hurts
+xat.config.server.ender_tiara.waterhurts.tooltip=If the Player Should Take Damage in water or when exposed to rain
+xat.config.server.ender_tiara.ignoredamage=Chance to Ignore Damage
+xat.config.server.ender_tiara.ignoredamage.tooltip=Should taking damage have a chance to be ignored?
+xat.config.server.ender_tiara.ignoredamage.spawn=Chance for Enderman
+xat.config.server.ender_tiara.ignoredamage.spawn.tooltip=Should Taking Damage have a chance to Spawn an Enderman?
+xat.config.server.ender_tiara.ignoredamage.spawn.chance=Enderman Spawn Chance
+xat.config.server.ender_tiara.ignoredamage.spawn.chance.tooltip=1 in X chance to to ignore damage and spawn an Enderman to fight for you
+xat.config.server.ender_tiara.ignoredamage.teleport=Damaged Teleport
+xat.config.server.ender_tiara.ignoredamage.teleport.tooltip=Should you teleport randomly when Damage is Ignored
+xat.config.server.ender_tiara.ignoredamage.teleport.chance=Teleport Chance
+xat.config.server.ender_tiara.ignoredamage.teleport.chance.tooltip=1 in X chance to teleport when taking indirect damage
+xat.config.server.ender_tiara.endermen.follow=Endermen Follow
+xat.config.server.ender_tiara.endermen.follow.tooltip=Nearby Endermen Follow you if enabled
+xat.config.server.ender_tiara.endermen.retaliate=Endermen Retaliate
+xat.config.server.ender_tiara.endermen.retaliate.tooltip=When Attacking an Enderman should it fight back?
+xat.config.server.ender_tiara.endermen.exp=Endermen Drop XP
+xat.config.server.ender_tiara.endermen.exp.tooltip=When Killing an Enderman Should it drop Experience?
+xat.config.server.ender_tiara.endermen.items=Endermen Drop Items
+xat.config.server.ender_tiara.endermen.items.tooltip=When Killing an Enderman Should it drop Items?
+xat.config.server.ender_tiara.endermen.teleport=Enderman Teleport
+xat.config.server.ender_tiara.endermen.teleport.tooltip=Can Endermen Teleport
+xat.config.server.ender_tiara.toughasnails.immunity.cold=Immune to Cold
+xat.config.server.ender_tiara.toughasnails.immunity.cold.tooltip=If Tough as Nails is Installed Should the player be Immune to Cold
+
+xat.config.dwarf_ring=Ring of the Dwarves Settings
+xat.config.dwarf_ring.tooltip=
+
+xat.config.elf_ring=Ring of the Elves Settings
+xat.config.elf_ring.tooltip=
+
+xat.config.fairy_ring=Ring of the Fairies Settings
+xat.config.fairy_ring.tooltip=
+
+xat.config.faelis_ring=Ring of the Faeles Settings
+xat.config.faelis_ring.tooltip=
+
+xat.config.goblin_ring=Ring of the Goblins Settings
+xat.config.goblin_ring.tooltip=
+
+xat.config.titan_ring=Ring of the Titans Settings
+xat.config.titan_ring.tooltip=
+
+xat.config.dragon_ring=Ring of the Dragons Settings
+xat.config.dragon_ring.tooltip=
+
+xat.config.damage_shield=Shield of Honor Settings
+xat.config.damage_shield.tooltip=
+
+xat.config.server.damage_shield.ignore.damage=Ignore Damage
+xat.config.server.damage_shield.ignore.damage.tooltip=While Enabled, every X Hits, Nullify the Next Incoming Attack
+xat.config.server.damage_shield.ignore.damage.hits=Required Hits
+xat.config.server.damage_shield.ignore.damage.hits.tooltip=How many Hits before the Next Attack is Ignored
+xat.config.server.damage_shield.explosion.resist=Explosion Resistance
+xat.config.server.damage_shield.explosion.resist.tooltip=Resistance to Explosions
+xat.config.server.damage_shield.explosion.resist.amount=Explosion Resistance Amount
+xat.config.server.damage_shield.explosion.resist.amount.tooltip=Multiply Incoming Explosion Source Damage by this Amount
+xat.config.server.damage_shield.resistance=Resistance Potion
+xat.config.server.damage_shield.resistance.tooltip=Option to change what 'Resistance' is
+xat.config.server.damage_shield.resistance.level=Resistance Level
+xat.config.server.damage_shield.resistance.level.tooltip=Level of Resistance when worn. Default 0
+xat.config.server.damage_shield.resistance.stacks=Resistance Stacks
+xat.config.server.damage_shield.resistance.stacks.tooltip=If the Shield of Honors Resistance should Stack with Resistance from other sources
+xat.config.server.damage_shield.resistance.stacks.max=Max Stackable Resistance
+xat.config.server.damage_shield.resistance.stacks.max.tooltip=The max level resistance can be stacked up to
+xat.config.server.damage_shield.epic.gamer=Epic Pro Gamer
+xat.config.server.damage_shield.epic.gamer.tooltip=Only Disable this if you're 'The' Epic Pro Gamer (Easter Egg)
+xat.config.server.damage_shield.firstaid.ignore.headshots=Ignore Headshots
+xat.config.server.damage_shield.firstaid.ignore.headshots.tooltip=If First aid is installed, Chance to Ignore Fatal Head Damage\nOnly Triggers if the Next Attack was supposed to kill you
+xat.config.server.damage_shield.firstaid.ignore.headshots.chance=Headshots Ignore Chance
+xat.config.server.damage_shield.firstaid.ignore.headshots.chance.tooltip=1 in X Chance to Ignore Fatal Headshot Damage
+
+xat.config.client.damage_shield.volume=Effect Volume
+xat.config.client.damage_shield.volume.tooltip=Volume of the Sound effect when the Shield of Honor blocks damage
+
+xat.config.inertia_null_stone=Stone of Inertia Null Settings
+xat.config.inertia_null_stone.tooltip=
+xat.config.server.inertia_null_stone.falldamage=Modify Fall Damage
+xat.config.server.inertia_null_stone.falldamage.tooltip=Should the Stone of Inertia Null Modify Fall Damage?
+xat.config.server.inertia_null_stone.falldamage.amount=Modified Fall Damage Amount
+xat.config.server.inertia_null_stone.falldamage.amount.tooltip=Multiply Fall Damage by This Amount
+
+xat.config.greater_inertia_stone=Stone of Greater Inertia
+xat.config.greater_inertia_stone.tooltip=
+xat.config.server.greater_inertia_stone.falldamage=Modify Fall Damage
+xat.config.server.greater_inertia_stone.falldamage.tooltip=Should the Stone of Greater Inertia Modify Fall Damage?
+xat.config.server.greater_inertia_stone.falldamage.amount=Modified Fall Damage Amount
+xat.config.server.greater_inertia_stone.falldamage.amount.tooltip=Multiply Fall Damage by This Amount
+xat.config.server.greater_inertia_stone.jumpheight=Modify Jump Height
+xat.config.server.greater_inertia_stone.jumpheight.tooltip=Should the Stone of Greater Inertia Modify Jump Height?
+xat.config.server.greater_inertia_stone.jumpheight.amount=Modified Jump Height Amount
+xat.config.server.greater_inertia_stone.jumpheight.amount.tooltip=Multiply Jump Height by This Amount
+
+xat.config.poison_stone=Poison Stone Settings
+xat.config.poison_stone.tooltip=
+xat.config.server.poison_stone.damagebonus=Bonus Damage
+xat.config.server.poison_stone.damagebonus.tooltip=If an Enemy is Poisoned, Do Extra Damage?
+xat.config.server.poison_stone.damagebonus.amount=Bonus Damage Amount
+xat.config.server.poison_stone.damagebonus.amount.tooltip=When an Enemy is Poisoned, Multiply damage dealt to them By this
+xat.config.server.poison_stone.poison=Can Poison
+xat.config.server.poison_stone.poison.tooltip=Can the Poison Stone Poison Enemies?
+xat.config.server.poison_stone.poison.chance=Poison Chance
+xat.config.server.poison_stone.poison.chance.tooltip=1 in X chance to Poison an Enemy on Attack for 2 seconds
+xat.config.server.poison_stone.poison.duration=Poison Duration
+xat.config.server.poison_stone.poison.duration.tooltip=How long should the poison effect last in ticks
+
+xat.config.polarized_stone=Polarized Stone Settings
+xat.config.polarized_stone.tooltip=
+xat.config.server.polarized_stone.collection.instant=Instant Pickup
+xat.config.server.polarized_stone.collection.instant.tooltip=Should the Polarized Stone Instantly Pickup Items
+xat.config.server.polarized_stone.collection.instant.xp=Instant XP Pickup
+xat.config.server.polarized_stone.collection.instant.xp.tooltip=Should the Polarized Stone Instantly Pickup XP
+xat.config.server.polarized_stone.collection.range=Collection Range
+xat.config.server.polarized_stone.collection.range.tooltip=WARNING! SETTING THESE VALUES TOO HIGH WILL CAUSE YOU TO LAG. Try to Keep within a range of 4-16
+xat.config.server.polarized_stone.collection.range.vertical=Vertical Distance
+xat.config.server.polarized_stone.collection.range.vertical.tooltip=How Far Vertically(Up, Down) in Blocks the Polarized Stone can Effect. Default 6, MIN 0, MAX 32
+xat.config.server.polarized_stone.collection.range.horizontal=Horizontal Distance
+xat.config.server.polarized_stone.collection.range.horizontal.tooltip=How Far Horizontally(N, E, S, W) in Blocks the Polarized Stone can Effect. Default 12, MIN 0, MAX 32
+xat.config.server.polarized_stone.collection.xp=Effect EXP
+xat.config.server.polarized_stone.collection.xp.tooltip=Should the Polarized Stone Effect XP
+xat.config.server.polarized_stone.collection.speed=Pull Mode Force
+xat.config.server.polarized_stone.collection.speed.tooltip=How Much Force used when Things are Pulled Toward the player if Instant Pickup is disabled
+xat.config.server.polarized_stone.repel=Repel Projectiles
+xat.config.server.polarized_stone.repel.tooltip=Should The Polarized Stone Repel Projectiles
+xat.config.server.polarized_stone.repel.range=Polarized Repel Range
+xat.config.server.polarized_stone.repel.range.tooltip=The Distance from the player to repel entities
+xat.config.server.polarized_stone.repel.exhaust=Repel Costs Mana
+xat.config.server.polarized_stone.repel.exhaust.tooltip=Should It Cost Mana to Repel Projectiles
+xat.config.server.polarized_stone.repel.exhaust.amount=Mana Cost
+xat.config.server.polarized_stone.repel.exhaust.amount.tooltip=How much Mana per Tick rate
+xat.config.server.polarized_stone.repel.exhaust.speed=Mana Cost Tick Rate
+xat.config.server.polarized_stone.repel.exhaust.speed.tooltip=How often in Ticks Mana is Reduced while Repel Mode is Active
+xat.config.server.polarized_stone.repel.entity.whitelist=Repelled Entities
+xat.config.server.polarized_stone.repel.entity.whitelist.tooltip=List of Entities the Polarized stone can repel
+
+xat.config.sea_stone=Stone of the Sea Settings
+xat.config.sea_stone.tooltip=
+xat.config.server.sea_stone.betterswimming=Better Swimming
+xat.config.server.sea_stone.betterswimming.tooltip=When Enabled applies tweaks to Water movement to make swimming easier
+xat.config.server.sea_stone.betterswimming.old=Old Tweak
+xat.config.server.sea_stone.betterswimming.old.tooltip=Use old version of Swimming Tweaks
+xat.config.server.sea_stone.waterbreathing=Water Breathing
+xat.config.server.sea_stone.waterbreathing.tooltip=When Enabled Gives Infinite Oxygen
+xat.config.server.sea_stone.waterbreathing.bubbles=Full Bubbles
+xat.config.server.sea_stone.waterbreathing.bubbles.tooltip=When Infinite Oxygen is Enabled, Should it Trigger at Full Oxygen Bubbles, or when on the Final Oxygen Bubble
+xat.config.server.sea_stone.toughasnails.thirst=Prevent TAN Thirst Poisoning
+xat.config.server.sea_stone.toughasnails.thirst.tooltip=If Tough as Nails is installed, Should the Stone of the Sea Prevent the Thirst Effect?
+
+xat.config.wither_ring=Wither Ring Settings
+xat.config.wither_ring.tooltip=
+xat.config.server.wither_ring.leech=Leech
+xat.config.server.wither_ring.leech.tooltip=If The Enemy Has Wither, Should you be able to leech health from them
+xat.config.server.wither_ring.leech.amount=Leech Amount
+xat.config.server.wither_ring.leech.amount.tooltip=How Much Leech Per Hit in half hearts
+xat.config.server.wither_ring.wither=Wither Enemy
+xat.config.server.wither_ring.wither.tooltip=Is it Possible to Wither an Enemy?
+xat.config.server.wither_ring.wither.chance=Wither Chance
+xat.config.server.wither_ring.wither.chance.tooltip=1 in X Chance to Wither an Enemy on Attack for 2 Seconds
+xat.config.server.wither_ring.wither.duration=Wither Duration
+xat.config.server.wither_ring.wither.duration.tooltip=How long Wither lasts in ticks
+
+xat.config.arcing_orb=Arcing Orb Settings
+xat.config.arcing_orb.tooltip=
+
+xat.config.teddy_bear=Teddy Bear Settings
+xat.config.teddy_bear.tooltip=
+
+xat.config.server.teddy_bear.sleepbonus=Sleep Bonus
+xat.config.server.teddy_bear.sleepbonus.tooltip=Give Buffs when Sleeping
+xat.config.server.teddy_bear.sleepbonus.buff=Buffs
+xat.config.server.teddy_bear.sleepbonus.buff.tooltip=Which Buffs to give when sleeping
+xat.config.server.teddy_bear.sleepbonus.buff.random=Random Buffs
+xat.config.server.teddy_bear.sleepbonus.buff.random.tooltip=If this value is greater then 0, instead of giving every buff in the list, it gives x random buffs
+
+xat.config.faelis_claw=Faelis Claw Settings
+xat.config.faelis_claw.tooltip=
+
+xat.config.server.faelis_claw.bleeding=Bleed
+xat.config.server.faelis_claw.bleeding.tooltip=Should this Item cause Bleeding when Attacking an Entity
+xat.config.server.faelis_claw.bleeding.duration=Bleed Duration
+xat.config.server.faelis_claw.bleeding.duration.tooltip=How long bleeding lasts in ticks
+xat.config.server.faelis_claw.bleeding.chance=Bleed Chance
+xat.config.server.faelis_claw.bleeding.chance.tooltip=1 in X Chance to cause bleed, setting this value to 0 always causes bleed
+
+#####################################[Item Configs End]#####################################
+
+#####################################[Magic Configs]#####################################
+xat.config.magic=Magic Settings
+xat.config.magic.tooltip=
+
+xat.config.magic.moon_rose.essence=Moon Rose Essence
+xat.config.magic.moon_rose.essence.tooltip=How much Magical Essence the Moon Rose has
+xat.config.magic.moon_rose.cooldown=Absorption Cooldown
+xat.config.magic.moon_rose.cooldown.tooltip=How long it takes in Ticks to absorb 1 essence from a Moon Rose
+xat.config.magic.mana_crystal.explodes=Mana Crystal Explodes
+xat.config.magic.mana_reagent.harmful=Mana Reagent Harmful
+
+xat.config.magic.mana.enabled=Mana Enabled
+xat.config.magic.mana.enabled.tooltip=
+xat.config.magic.mana.regen.ticks=Mana Regen Rate
+xat.config.magic.mana.regen.ticks.tooltip=How Often in Ticks Mana Regenerates
+xat.config.magic.mana.regen.timeout=Mana Regen Timeout
+xat.config.magic.mana.regen.timeout.tooltip=How long after spending mana before it begins to regenerate
+xat.config.magic.mana.cap=Mana Cap
+xat.config.magic.mana.cap.tooltip=
+xat.config.magic.mana.cap.max=Max Mana
+xat.config.magic.mana.cap.max.tooltip=
+xat.config.magic.mana.cap.affinity=Cap Affinity
+xat.config.magic.mana.cap.affinity.tooltip=If the mana cap is enabled, should racial affinity apply before the cap, or after
+xat.config.magic.mana.bonus=Bonus Mana
+xat.config.magic.mana.bonus.tooltip=Bonus Mana Obtained from Mana Crystals and Moon Rose
+xat.config.magic.mana.cap.bonus=Bonus Mana Cap
+xat.config.magic.mana.cap.bonus.tooltip=Cap Bonus Mana Obtained from Mana Crystals and Moon Rose, set to 0 to disable
+xat.config.magic.mana.recovery.list=Recovery Items
+xat.config.magic.mana.recovery.list.tooltip=Items that Recover Mana\n modid:item_name;meta;amount
+
+#####################################[Magic Configs End]#####################################
+
+#####################################[Race Configs]#####################################
+xat.config.races=Race Settings
+
+xat.config.races.dwarf=Dwarf Race Settings
+xat.config.races.dwarf.blocks=Block Settings
+xat.config.races.dwarf.blocks.tooltip=
+xat.config.races.dwarf.blocks.xp=Blocks Give XP
+xat.config.races.dwarf.blocks.xp.tooltip=Should Blocks Give Bonus XP?
+xat.config.races.dwarf.blocks.xp.min=Bonus XP Min
+xat.config.races.dwarf.blocks.xp.min.tooltip=
+xat.config.races.dwarf.blocks.xp.max=Bonus XP Max
+xat.config.races.dwarf.blocks.xp.max.tooltip=
+xat.config.races.dwarf.blocks.xp.list=Bonus XP Block List
+xat.config.races.dwarf.blocks.xp.list.tooltip=Blocks in this List will give bonus XP Randomly between Bonus_XP_Min and Bonus_XP_Max
+xat.config.races.dwarf.blocks.minimum.xp=Minimum XP Blocks
+xat.config.races.dwarf.blocks.minimum.xp.tooltip=Should Blocks give at Least 1 XP
+xat.config.races.dwarf.blocks.minimum.xp.list=Minimum XP Block List
+xat.config.races.dwarf.blocks.minimum.xp.list.tooltip=Blocks in this List will Always Give 1 XP when Broken
+xat.config.races.dwarf.fortune=Natural Fortune
+xat.config.races.dwarf.fortune.tooltip=Should the Ring of the Dwarves Have a Natural Fortune Ability
+xat.config.races.dwarf.fortune.stacking=Natural Fortune Stacking
+xat.config.races.dwarf.fortune.stacking.tooltip=Should the Ring of the Dwarves Natural Fortune Ability Stack with the Fortune Enchantment?
+xat.config.races.dwarf.fortune.blocks.list=Natural Fortune Block List
+xat.config.races.dwarf.fortune.blocks.list.tooltip=Natural Fortune only works on Blocks in this List
+xat.config.races.dwarf.skilledminer=Skilled Miner
+xat.config.races.dwarf.skilledminer.tooltip=Should the Dwarves Ring lower the mining level requirement for pickaxes. IE. an Iron Pickaxe will be able to break Obsidian?
+xat.config.races.dwarf.static_mining=Static Mining
+xat.config.races.dwarf.static_mining.tooltip=When Mining, Mining Speed is static at (Block Hardness * 4), Not Including other Modifiers.
+
+xat.config.races.elf=Elf Race Settings
+xat.config.races.elf.chargeshot.enabled=Charge Shot
+xat.config.races.elf.chargeshot.enabled.tooltip=Should Elves have the ability to enhance bow attacks with Mana
+xat.config.races.elf.chargeshot.cost=Charge Shot Cost
+xat.config.races.elf.chargeshot.cost.tooltip=How Much Mana the Charge Shot Ability Costs
+xat.config.races.elf.chargeshot.base.multiplier=Base damage multiplier
+xat.config.races.elf.chargeshot.base.multiplier.tooltip=A charge shot is '(dmg * base multiplier) * charge duration'
+xat.config.races.elf.chargeshot.minimum.damage.multiplier=Minimum damage multiplier
+xat.config.races.elf.chargeshot.minimum.damage.multiplier.tooltip=If '(dmg * base multiplier)' is less then this value the math is `(minimum dmg * base multiplier) * charge duration`
+xat.config.races.elf.chargeshot.max.time=Max Charge Length
+xat.config.races.elf.chargeshot.max.time.tooltip=The Larger this value is, the longer it takes to get a full charge
+xat.config.races.elf.chargeshot.bow.blacklist=Bow Blacklist
+xat.config.races.elf.chargeshot.bow.blacklist.tooltip=Bows that are incapable of performaing a charged shot
+xat.config.races.elf.chargeshot.explode=Full Charges Explode
+xat.config.races.elf.chargeshot.explode.tooltip=If a fully charged shot should explode on impact causing splash damage
+
+xat.config.races.fairy=Fairy Race Settings
+xat.config.races.fairy.flight=Creative Flight
+xat.config.races.fairy.flight.tooltip=Grants the player Creative Flight if Enabled
+xat.config.races.fairy.flight.speed=Creative Flight Speed
+xat.config.races.fairy.flight.speed.tooltip=Change the flight speed from the Vanilla Default of 0.05
+xat.config.races.fairy.flight.speed.amount=Creative Flight Speed Amount
+xat.config.races.fairy.flight.speed.amount.tooltip=Directly Sets the Movement speed for Creative Flight
+xat.config.races.fairy.flight.cost=Flight Cost
+xat.config.races.fairy.flight.cost.tooltip=Mana Cost per second while flying
+xat.config.races.fairy.climbing=Climbing
+xat.config.races.fairy.climbing.tooltip=Should the Player be able to Climb Blocks?
+xat.config.races.fairy.climbing.whitelist=Climbing Whitelist
+xat.config.races.fairy.climbing.whitelist.tooltip=Should the Block List be a whitelist
+xat.config.races.fairy.climbing.blocks.list=Climable Blocks
+xat.config.races.fairy.climbing.blocks.list.tooltip=List of Blocks the player can Climb when Wearing the Ring of the Fairies
+xat.config.races.fairy.jumpheight=Jump Height Adjustment
+xat.config.races.fairy.jumpheight.tooltip=Adjusts the players Jump and Step Height to Match the players Size
+xat.config.races.fairy.mount.enabled=Able to Mount Entities
+xat.config.races.fairy.mount.enabled.tooltip=If the player is capable of mounting entities. IE Horse, Boat, Minecart.
+xat.config.races.fairy.mount.boat.control=Can Control Boats
+xat.config.races.fairy.mount.boat.control.tooltip=If the player should be able to control boats
+xat.config.races.fairy.mount.whitelist=Mount Whitelist
+xat.config.races.fairy.mount.whitelist.tooltip=Should the Mount Blacklist be a Whitelist
+xat.config.races.fairy.mount.blacklist=Mount Blacklist
+xat.config.races.fairy.mount.blacklist.tooltip=Entities that can not be mounted, or can only be mounted
+
+xat.config.races.goblin=Goblin Race Settings
+xat.config.races.goblin.tooltip=
+xat.config.races.goblin.rider=Goblin Rider
+xat.config.races.goblin.rider.tooltip=Can Goblins mount tamed wolves
+xat.config.races.goblin.creeper=Friendly Creepers
+xat.config.races.goblin.creeper.tooltip=Do Creepers Ignore Goblins
+xat.config.races.goblin.creeper.explode=Creepers Explode
+xat.config.races.goblin.creeper.explode.tooltip=Do Creepers explode when attacked
+xat.config.races.goblin.natural_resistance=Naturally Resistant
+xat.config.races.goblin.natural_resistance.tooltip=Should Goblins be naturally resistant to Fire and explosions
+
+xat.config.races.titan=Titan Race Settings
+xat.config.races.titan.jumpheight=Jump Height Adjustment
+xat.config.races.titan.jumpheight.tooltip=Adjusts the players Jump and Step Height to Match the players Size
+xat.config.races.titan.heavy=Heavy Player
+xat.config.races.titan.heavy.tooltip=If Enabled the player will sink faster in water and make it more difficult to swim up
+xat.config.races.titan.trample=Trample Farmland
+xat.config.races.titan.trample.tooltip=If Enabled the player will trample farmland in a 3x3 under the player
+xat.config.races.titan.mining.extended=AoE Mining
+xat.config.races.titan.mining.extended.tooltip=If Enabled the Player will be able to Mine in a 3x3x3 area
+xat.config.races.titan.mining.extended.inverted=Inverted Mining
+xat.config.races.titan.mining.extended.inverted.tooltip=If Enabled, The player be required to Sneak to AoE Mine
+xat.config.races.titan.mining.extended.blacklist=AoE Mining Blacklist
+xat.config.races.titan.mining.extended.blacklist.tooltip=Blocks that can not be AoE Mined
+xat.config.races.titan.mount.enabled=Able to Mount Entities
+xat.config.races.titan.mount.enabled.tooltip=If the player is capable of mounting entities. IE Horse, Boat, Minecart.
+xat.config.races.titan.mount.whitelist=Toggle Whitelist
+xat.config.races.titan.mount.whitelist.tooltip=Should the Mount Blacklist be a Whitelist
+xat.config.races.titan.mount.blacklist=Mount Blacklist
+xat.config.races.titan.mount.blacklist.tooltip=Entities that can not be mounted, or can only be mounted
+
+xat.config.races.faelis=Faelis Race Settings
+xat.config.races.faelis.claw.bonus=Claw Bonus
+xat.config.races.faelis.claw.bonus.tooltip=When enabled, this will add bonus damage to any attack dealt with an empty hand.
+xat.config.races.faelis.claw.bonus.amount=Bonus Amount
+xat.config.races.faelis.claw.bonus.amount.tooltip=The damage increase for attacking an enemy with an empty hand. The standard fist damage is 0.75 damage when this value is at 0. This value is not affected by damage modifiers.
+xat.config.races.faelis.armor.heavy.list=Heavy Armor
+xat.config.races.faelis.armor.heavy.list.tooltip=List of Armors that count as Heavy
+xat.config.races.faelis.armor.penalties=Armor Penalty
+xat.config.races.faelis.armor.penalties.tooltip=Enable to decrease the player's speed while wearing heavier armors. By default, leather armor is the only light armor.
+xat.config.races.faelis.armor.penalties.amount=Penalty Amount
+xat.config.races.faelis.armor.penalties.amount.tooltip=The amount to decrease the player's speed by for each piece of heavy armor equipped.
+xat.config.races.faelis.milk.buff=Milk Buff
+xat.config.races.faelis.milk.buff.tooltip=Should Faeles get a buff when drinking milk
+xat.config.races.faelis.milk.buff.list=Buffs
+xat.config.races.faelis.milk.buff.list.tooltip=Buffs from drinking milk
+xat.config.races.faelis.milk.buff.duration=Buff Duration
+xat.config.races.faelis.milk.buff.duration.tooltip=How long the buff should last
+xat.config.races.faelis.milk.buff.immunity=Buff Immunity
+xat.config.races.faelis.milk.buff.immunity.tooltip=Should the Faelis be Immune to the armor weight penalty while the Buff is Active
+xat.config.races.faelis.milk.list=Milk
+xat.config.races.faelis.milk.list.tooltip=List of Items that count as Milk
+
+xat.config.races.dragon=Dragon Race Settings
+xat.config.races.dragon.flight=Creative Flight
+xat.config.races.dragon.flight.tooltip=Grants the player Creative Flight if Enabled
+xat.config.races.dragon.flight.speed=Creative Flight Speed
+xat.config.races.dragon.flight.speed.tooltip=Change the flight speed from the Vanilla Default of 0.05
+xat.config.races.dragon.flight.speed.amount=Creative Flight Speed Amount
+xat.config.races.dragon.flight.speed.amount.tooltip=Directly Sets the Movement speed for Creative Flight
+xat.config.races.dragon.flight.cost=Flight Cost
+xat.config.races.dragon.flight.cost.tooltip=Mana Cost per second while flying
+xat.config.races.dragon.breath.damage=Dragon Breath Damage
+xat.config.races.dragon.breath.damage.tooltip=How much damage per tick the dragon breath does
+xat.config.races.dragon.breath.cost=Dragon Breath Cost
+xat.config.races.dragon.breath.cost.tooltip=The Mana Cost per tick when using dragons breath
+
+####################################Misc Configs####################################
+
+xat.config.potion.settings=Potion Settings
+xat.config.potion.settings.tooltip=Settings regarding the potions.
+
+xat.config.server.settings=Server Settings
+xat.config.server.settings.tooltip=Settings which change the gameplay.
+
+xat.config.server.container.settings=Trinket Container Settings
+xat.config.server.container.settings.tooltip=Settings regarding the Trinkets Container on the server
+xat.config.server.container.enabled=Trinkets Container Enabled
+xat.config.server.container.enabled.tooltip=Should Trinkets and Baubles use it's own Built-in Container\nIf Disabled, please use "Baubles" by Azanor, Otherwise you wont be able to use this mod
+xat.config.server.container.slots=Slots
+xat.config.server.container.slots.tooltip=How many slots should the Trinkets container have
+
+xat.config.registry.enabled=Item Enabled
+xat.config.registry.enabled.tooltip=If this item should be added to the registry on load
+
+xat.config.misc=Misc Settings
+xat.config.misc.tooltip=
+
+xat.config.misc.depth=Depth Strider Stacks
+xat.config.misc.depth.tooltip=Does Depth Strider Stack with Swim Speed Attributes?
+xat.config.misc.sme.underwaterstrider=Underwater Strider Stacks
+xat.config.misc.sme.underwaterstrider.tooltip=Does Underwater Strider from Rin's So Many Enchantments Stack with Swim Speed Attributes?
+xat.config.misc.movement=Prevent Movement while transforming
+xat.config.misc.movement.tooltip=If enabled, the player will be unable to move when transforming from one race to another
+xat.config.misc.interaction.fix=Reach Interaction Fix
+xat.config.misc.interaction.fix.tooltip=Vanilla MC doesn't handle interaction with increased reach properly, this fixes it
+xat.config.misc.vip=VIP Enabled
+xat.config.misc.vip.tooltip=The VIP list may be unaccessible under some circumstance, use this to shorten game launching time.
+
+xat.config.compatability=Compatability Settings
+xat.config.compatability.tooltip=Settings which affect how this mod works with other mods.
+
+xat.config.toughasnails=Tough as Nails
+xat.config.toughasnails.tooltip=
+
+xat.config.iceandfire=Ice and Fire
+xat.config.iceandfire.tooltip=
+
+xat.config.firstaid=First Aid Settings
+xat.config.firstaid.tooltip=
+
+xat.config.fire_resistance_tiers=Fire Resistance Tiers
+xat.config.fire_resistance_tiers.tooltip=
+
+xat.config.baubles=Baubles
+xat.config.baubles.tooltip=If the mod Baubles is installed what bauble slot should it use\nAvailable Types:\nTrinket, Any, All\nAmulet, Necklace, Pendant\nRing, Rings\nBelt\nHead, Hat\nBody, Chest\nCharm
+
+xat.config.baubles.type=Bauble Type
+xat.config.baubles.type.tooltip=If the mod Baubles is installed what bauble slot should it use\nAvailable Types:\nTrinket, Any, All\nAmulet, Necklace, Pendant\nRing, Rings\nBelt\nHead, Hat\nBody, Chest\nCharm
+
+xat.config.immunities.potions=Immune to Potion
+xat.config.immunities.potions.tooltip=Potions in this list can not be obtained
+
+xat.config.attributes=Attributes
+xat.config.attributes.tooltip="For More Information on Attributes"\n"https://minecraft.gamepedia.com/Attribute"

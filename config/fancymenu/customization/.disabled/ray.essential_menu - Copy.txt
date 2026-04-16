@@ -1,0 +1,279 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiIngameMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 8
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/DregoraRL/buttons/buttonlong_overgrown_03.png
+  backgroundnormal = fancymenu_data/DregoraRL/buttons/buttonlong.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  action = sethoverlabel
+  label = §fSave and... (Rage) Quit?
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -112
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/DregoraRL/buttons/buttonlong_overgrown_01.png
+  backgroundnormal = fancymenu_data/DregoraRL/buttons/buttonlong.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  action = sethoverlabel
+  label = §fBack to Pain
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -16
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/DregoraRL/buttons/button_overgrown_01.png
+  backgroundnormal = fancymenu_data/DregoraRL/buttons/button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  action = sethoverlabel
+  label = §fOptions...
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = -88
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/DregoraRL/buttons/button_overgrown_02.png
+  backgroundnormal = fancymenu_data/DregoraRL/buttons/button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  action = sethoverlabel
+  label = §fStatistics
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  orientation = mid-centered
+  x = -101
+  action = movebutton
+  y = 33
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  action = setbuttonlabel
+  value = Open to Public
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/DregoraRL/buttons/buttonlong_overgrown_02.png
+  backgroundnormal = fancymenu_data/DregoraRL/buttons/buttonlong.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  action = sethoverlabel
+  label = §fSuffer Together
+}
+
+customization {
+  identifier = %id=400282%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -88
+}
+
+customization {
+  identifier = %id=400282%
+  action = setbuttonlabel
+  value = Screenshots
+  buttonaction = opengui;gg.essential.gui.screenshot.components.ScreenshotBrowser%btnaction_splitter_fm%
+}
+
+customization {
+  identifier = %id=400282%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/DregoraRL/buttons/button_overgrown_01.png
+  backgroundnormal = fancymenu_data/DregoraRL/buttons/button.png
+}
+
+customization {
+  identifier = %id=400282%
+  action = sethoverlabel
+  label = §fScreenshots
+  buttonaction = opengui;gg.essential.gui.screenshot.components.ScreenshotBrowser%btnaction_splitter_fm%
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_pausescreen_mods_button%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = -16
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_pausescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/DregoraRL/buttons/button_overgrown_02.png
+  backgroundnormal = fancymenu_data/DregoraRL/buttons/button.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_pausescreen_mods_button%
+  action = sethoverlabel
+  label = §fMod Options...
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opengui;gg.essential.gui.friends.SocialMenu%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/DregoraRL/buttons/button_overgrown_02.png
+  label = Friends
+  loopbackgroundanimations = true
+  hoverlabel = §fFriends
+  x = 2
+  width = 98
+  action = addbutton
+  actionid = 0998248e-bc82-4fd9-833b-32fdc62f3a5b1733440709855
+  y = -64
+  backgroundnormal = fancymenu_data/DregoraRL/buttons/button.png
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opengui;gg.essential.gui.sps.WorldShareSettingsGui%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/DregoraRL/buttons/button_overgrown_01.png
+  label = World Settings
+  loopbackgroundanimations = true
+  hoverlabel = §fWorld Settings
+  x = -100
+  width = 98
+  action = addbutton
+  actionid = 3a25d2e2-7aa0-40fd-bb7c-dd57d5e50c701733441954997
+  y = -64
+  backgroundnormal = fancymenu_data/DregoraRL/buttons/button.png
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = sendmessage;/invitefriends%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/DregoraRL/buttons/button_overgrown_01.png
+  label = Invite Friends
+  loopbackgroundanimations = true
+  hoverlabel = §fSuffer Together
+  x = -100
+  width = 98
+  action = addbutton
+  actionid = ce344ea9-823f-401e-8896-ca1395896a241733443475276
+  y = -40
+  backgroundnormal = fancymenu_data/DregoraRL/buttons/button.png
+  height = 19
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opengui;gg.essential.gui.wardrobe.Wardrobe%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/DregoraRL/buttons/button_overgrown_01.png
+  label = Skins
+  loopbackgroundanimations = true
+  hoverlabel = §fSkins
+  x = 2
+  width = 98
+  action = addbutton
+  actionid = ce29b19f-d68d-4ff2-9a63-88037e5f3b041733445391425
+  y = -40
+  backgroundnormal = fancymenu_data/DregoraRL/buttons/button.png
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;gg.essential.gui.screenshot.components.ScreenshotBrowser%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/DregoraRL/buttons/button_overgrown_01.png
+backgroundnormal = fancymenu_data/DregoraRL/buttons/button.png
+  x = 548
+  width = 100
+  action = addbutton
+  actionid = 299ada63-3987-4a16-aa54-85bce27e21d91776070849686
+  y = 194
+  label = New Button
+  height = 20
+}
+

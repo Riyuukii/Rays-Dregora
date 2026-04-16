@@ -1,0 +1,31 @@
+container.wearablebackpacks.backpack=§6Nahrbtnik
+
+item.wearablebackpacks.backpack.name=Nahrbtnik
+
+tooltip.wearablebackpacks.moreInfo=Drži %1$s za več informacij.
+tooltip.wearablebackpacks.openHint=Pritisni %1$s, da odpreš nošen nahrbtnik.
+tooltip.wearablebackpacks.equipHint=Da se opremiš z nahrbtnikom \nga uniči medtem, ko si sklonjen.
+tooltip.wearablebackpacks.equipHint.extended=Da se opremiš z nahrbtnikom ga sklonjen uniči \n sklonjen uporabi desni klik na tleh s prostimi rokami, \nda odložiš nahrbtnik.
+tooltip.wearablebackpacks.unequipHint=Da odložiš nahrbtnik sklonjen uporabi desni klik na tleh.
+tooltip.wearablebackpacks.used=Trenutno igraled uporablja nahrbtnik.
+
+chat.wearablebackpacks.cantEquip=Na sebi že imaš nahrbtnik.
+
+key.wearablebackpacks.open=Odpri nahrbtnik.
+
+config.wearablebackpacks.general.enableEquippedInteraction=Omogoči uporabljanje nošenega nahrbtnika
+config.wearablebackpacks.general.enableEquippedInteraction.tooltip=Omogoči igralcem, da odprejo nahrbtnik, ki ga nosijo druge entitete.
+config.wearablebackpacks.general.enableSelfInteraction=Omogoči odpiraje nahrbtnika, ki ga nosiš
+config.wearablebackpacks.general.enableSelfInteraction.tooltip=Omogoči igralcem dostop, do njihovega nahrbtnika medtem ko ga nosijo, s tipko.
+config.wearablebackpacks.general.enableMachineInteraction=Omogoči interakcijo s stroji
+config.wearablebackpacks.general.enableMachineInteraction.tooltip=Omogoči lijakom(ter strojem), da lahko iz postavljenega nahrbtnika vzamejo in vstavijo stvari.
+config.wearablebackpacks.general.dropAsBlockOnDeath=Po smrti postavi nahrbtnik
+config.wearablebackpacks.general.dropAsBlockOnDeath.tooltip=Odloči če se nahrbtnik postavi na tla po smrti(Se ne raztrosijo stvari v nahrbtniku po tleh)
+
+config.wearablebackpacks.entity.spawnNaturally=Naravno pojavljene entitete
+config.wearablebackpacks.entity.spawnNaturally.tooltip=Kontrolira če imajo naravno pojavljene entitete nahrbtnik.
+config.wearablebackpacks.entity.spawnFromSpawners=Ustvarjene entitete
+config.wearablebackpacks.entity.spawnFromSpawners.tooltip=Kontrolira če imajo ustvarjene entitete nahrbtnik.
+
+config.wearablebackpacks.cosmetic.enchantEffectOpacity=Transparentnost začaranega učinka
+config.wearablebackpacks.cosmetic.enchantEffectOpacity.tooltip=Kontrolira transparentnost začaranega / čarobnega učinka.

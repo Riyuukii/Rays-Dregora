@@ -1,0 +1,22 @@
+[
+  {
+    "minecraft_uuid": "987d92df-6d2c-4aa8-8434-8a93e3d3d543",
+    "minecraft_username": "_Rays",
+    "familiar_species": "nymph",
+    "familiar_subspecies": 0,
+    "familiar_variant": 2,
+    "familiar_size": 0.8,
+    "familiar_name": "hana - _Rays' Nymph",
+    "familiar_color": "000000"
+  },
+    {
+    "minecraft_uuid": "d5198bce-84dc-41d0-b581-da935931b8f3",
+    "minecraft_username": "khiayani",
+    "familiar_species": "wisp",
+    "familiar_subspecies": 0,
+    "familiar_variant": 2,
+    "familiar_size": 0.8,
+    "familiar_name": "Khiayani's Wisp",
+    "familiar_color": "000000"
+  }
+]

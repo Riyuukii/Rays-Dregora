@@ -1,0 +1,14 @@
+container.wearablebackpacks.backpack=§6가방
+
+item.wearablebackpacks.backpack.name=가방
+
+tooltip.wearablebackpacks.moreInfo=%1$s키를 누르면 설명보기.
+tooltip.wearablebackpacks.openHint=가방을 매고 있을 때 %1$s키를 누르면 열어 봅니다.
+tooltip.wearablebackpacks.equipHint=가방을 바닥에 놓고\n살금살금 자세로 부수면 등에 맵니다.
+tooltip.wearablebackpacks.equipHint.extended=살금살금 자세로 부수면 등에 맵니다.\n등에 매고 있을 때 빈손으로 살금살금\n자세로 바닥에 놓으면 가방을 벗습니다.
+tooltip.wearablebackpacks.unequipHint=빈손으로 살금살금 자세로\n바닥에 놓으면 가방을 벗습니다.
+tooltip.wearablebackpacks.used=지금 가방을 사용 중입니다.
+
+chat.wearablebackpacks.cantEquip=가방을 이미 매고 있습니다.
+
+key.wearablebackpacks.open=가방 열기
