@@ -270,8 +270,8 @@ customization {
   buttonaction = opengui;gg.essential.gui.screenshot.components.ScreenshotBrowser%btnaction_splitter_fm%
   backgroundhovered = fancymenu_data/DregoraRL/buttons/button_overgrown_01.png
   label = Gallery
-  hoverlabel = §fGallery
   loopbackgroundanimations = true
+  hoverlabel = §fGallery
   x = -100
   width = 98
   action = addbutton
@@ -279,5 +279,10 @@ customization {
   y = -88
   backgroundnormal = fancymenu_data/DregoraRL/buttons/button.png
   height = 20
+}
+
+customization {
+  identifier = %id=502306%
+  action = hidebutton
 }
 

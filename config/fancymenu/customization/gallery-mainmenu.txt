@@ -1,0 +1,114 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiOptions
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=345280%
+  orientation = mid-centered
+  x = -155
+  action = movebutton
+  y = -47
+}
+
+customization {
+  identifier = %id=345154%
+  orientation = mid-centered
+  x = -155
+  action = movebutton
+  y = -172
+}
+
+customization {
+  identifier = %id=345256%
+  orientation = mid-centered
+  x = -155
+  action = movebutton
+  y = -71
+}
+
+customization {
+  identifier = %id=505256%
+  orientation = mid-centered
+  x = 5
+  action = movebutton
+  y = -71
+}
+
+customization {
+  identifier = %id=345232%
+  orientation = mid-centered
+  x = -155
+  action = movebutton
+  y = -94
+}
+
+customization {
+  identifier = %id=505232%
+  orientation = mid-centered
+  x = 5
+  action = movebutton
+  y = -94
+}
+
+customization {
+  identifier = %id=345208%
+  orientation = mid-centered
+  x = -155
+  action = movebutton
+  y = -118
+}
+
+customization {
+  identifier = %id=505208%
+  orientation = mid-centered
+  x = 5
+  action = movebutton
+  y = -119
+}
+
+customization {
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if_not][req_id:4b9355eb-e19c-40b9-bd40-4c5996f716211776343844935] = 
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraftforge.fml.client.GuiModList%btnaction_splitter_fm%
+  x = 5
+  width = 150
+  action = addbutton
+  actionid = c78bf0b0-97ab-486a-b489-813c51c79bf51776343577004
+  y = -172
+  label = Mods Settings
+  height = 20
+}
+
+customization {
+  identifier = %id=505280%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=21%
+  orientation = mid-centered
+  x = 5
+  action = movebutton
+  y = -47
+}
+
+customization {
+  identifier = %id=21%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
