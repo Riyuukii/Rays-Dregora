@@ -215,7 +215,7 @@
         "activityType": 0,
         "statusDisplayType": 0,
         "partyPrivacy": 1,
-        "details": "Suffering with friends",
+        "details": "Suffering together ({server.players.current} players)",
         "detailsUrl": "",
         "gameState": "{dimension.name} - {biome.name}",
         "gameStateUrl": "",
