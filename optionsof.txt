@@ -38,7 +38,7 @@ ofStars:true
 ofSunMoon:true
 ofVignette:0
 ofChunkUpdates:1
-ofChunkUpdatesDynamic:true
+ofChunkUpdatesDynamic:false
 ofTime:0
 ofClearWater:true
 ofAaLevel:0
@@ -66,7 +66,7 @@ ofCustomEntityModels:true
 ofCustomGuis:true
 ofShowGlErrors:false
 ofFullscreenMode:Default
-ofFastMath:false
+ofFastMath:true
 ofFastRender:false
 ofTranslucentBlocks:0
 key_of.key.zoom:0

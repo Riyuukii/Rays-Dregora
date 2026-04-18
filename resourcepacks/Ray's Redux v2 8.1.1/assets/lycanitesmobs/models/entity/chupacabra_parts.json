@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Mouth",
+    "parent": "Head",
+    "centerX": "0.0",
+    "centerY": "0.71",
+    "centerZ": "0.88",
+    "rotationX": "0.0",
+    "rotationY": "0.0",
+    "rotationZ": "-0.0"
+  },
+  {
+    "name": "Head",
+    "parent": "Body",
+    "centerX": "0.0",
+    "centerY": "0.8",
+    "centerZ": "0.45",
+    "rotationX": "0.0",
+    "rotationY": "0.0",
+    "rotationZ": "-0.0"
+  },
+  {
+    "name": "TailLeft",
+    "parent": "Body",
+    "centerX": "0.05",
+    "centerY": "0.45",
+    "centerZ": "-1.05",
+    "rotationX": "0.0",
+    "rotationY": "0.0",
+    "rotationZ": "-0.0"
+  },
+  {
+    "name": "LegLeftFront",
+    "parent": "Body",
+    "centerX": "0.19",
+    "centerY": "0.65",
+    "centerZ": "0.4",
+    "rotationX": "0.0",
+    "rotationY": "0.0",
+    "rotationZ": "-0.0"
+  },
+  {
+    "name": "LegLeftBack",
+    "parent": "Body",
+    "centerX": "0.19",
+    "centerY": "0.6",
+    "centerZ": "-0.55",
+    "rotationX": "0.0",
+    "rotationY": "0.0",
+    "rotationZ": "-0.0"
+  },
+  {
+    "name": "Body",
+    "parent": "",
+    "centerX": "0.0",
+    "centerY": "0.7",
+    "centerZ": "-0.0",
+    "rotationX": "0.0",
+    "rotationY": "0.0",
+    "rotationZ": "-0.0"
+  },
+  {
+    "name": "TailRight",
+    "parent": "Body",
+    "centerX": "-0.05",
+    "centerY": "0.45",
+    "centerZ": "-1.05",
+    "rotationX": "0.0",
+    "rotationY": "0.0",
+    "rotationZ": "-0.0"
+  },
+  {
+    "name": "LegRightFront",
+    "parent": "Body",
+    "centerX": "-0.19",
+    "centerY": "0.65",
+    "centerZ": "0.4",
+    "rotationX": "0.0",
+    "rotationY": "0.0",
+    "rotationZ": "-0.0"
+  },
+  {
+    "name": "LegRightBack",
+    "parent": "Body",
+    "centerX": "-0.19",
+    "centerY": "0.6",
+    "centerZ": "-0.55",
+    "rotationX": "0.0",
+    "rotationY": "0.0",
+    "rotationZ": "-0.0"
+  }
+]
