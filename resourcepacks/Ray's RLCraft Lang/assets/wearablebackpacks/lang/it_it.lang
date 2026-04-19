@@ -1,0 +1,29 @@
+container.wearablebackpacks.backpack=§6Zaino
+
+item.wearablebackpacks.backpack.name=Zaino
+
+tooltip.wearablebackpacks.moreInfo=Tieni premuto %1$s per più informazioni.
+tooltip.wearablebackpacks.openHint=Premi %1$s per aprire lo zaino mentre è equipaggiato.
+tooltip.wearablebackpacks.equipHint=Posizionalo a terra e rompilo\nmentre sei accovacciato per equipaggiarlo.
+tooltip.wearablebackpacks.equipHint.extended=Accovacciati e rompi lo zaino per equipaggiarlo.\nAcovacciati e premi Tasto Destro\ncon nulla in mano per unequipaggiarlo.
+tooltip.wearablebackpacks.unequipHint=Accovacciati e premi Tasto Destro a terra\ncon nulla in mano per unequipaggiarlo.
+tooltip.wearablebackpacks.used=Attualmente usato da un altro giocatore.
+
+chat.wearablebackpacks.cantEquip=Hai già uno Zaino equipaggiato.
+
+key.wearablebackpacks.open=Apri Zaino
+
+config.wearablebackpacks.general.enableEquippedInteraction=Permetti Interazione da altri
+config.wearablebackpacks.general.enableEquippedInteraction.tooltip=Imposta se i giocatori hanno accesso agli zaini degli altri giocatori (ed entità).
+config.wearablebackpacks.general.enableSelfInteraction=Permetti Interazione quando equipaggiato
+config.wearablebackpacks.general.enableSelfInteraction.tooltip=Imposta se un giocatore ha accesso al proprio zaino utilizzando un tasto.
+config.wearablebackpacks.general.dropAsBlockOnDeath=Piazza come blocco alla morte
+config.wearablebackpacks.general.dropAsBlockOnDeath.tooltip=Imposta se lo Zaino verrà piazzato a terra alla morte invece di spargerne il contenuto.
+
+config.wearablebackpacks.entity.spawnNaturally=Evocazione Naturale
+config.wearablebackpacks.entity.spawnNaturally.tooltip=Imposta se i mostri spawnati naturalmente possono nascere con uno zaino
+config.wearablebackpacks.entity.spawnFromSpawners=Evocazione da Mob spawner
+config.wearablebackpacks.entity.spawnFromSpawners.tooltip=Imposta se i mostri spawnati da un Mob Spawner possono nascere con uno zaino
+
+config.wearablebackpacks.cosmetic.enchantEffectOpacity=Opacità dell'effetto dell'incantesimo	
+config.wearablebackpacks.cosmetic.enchantEffectOpacity.tooltip=Controlla l'opacità / visibilità dell'effetto di incantesimo degli zaini equipaggiati / posizionati, se presente.

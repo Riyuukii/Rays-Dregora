@@ -1,0 +1,24 @@
+container.wearablebackpacks.backpack=§6Mochila
+
+item.wearablebackpacks.backpack.name=Mochila
+
+tooltip.wearablebackpacks.moreInfo=Presiona %1$s para más información.
+tooltip.wearablebackpacks.openHint=Presiona %1$s para abrir la mochila teniéndola equipada.
+tooltip.wearablebackpacks.equipHint=Equipar mochila: agácharse y rómperla.
+tooltip.wearablebackpacks.equipHint.extended=Equipar mochila: agácharse y rómperla.\nDesequipar mochila: agácharse y clic\nderecho en el suelo con la mano vacia.
+tooltip.wearablebackpacks.unequipHint=Desequipar mochila: agácharse y clic\nderecho en el suelo con la mano vacia.
+tooltip.wearablebackpacks.used=Actualmente está siendo utilizada por un jugador.
+
+chat.wearablebackpacks.cantEquip=Ya tienes una mochila equipada.
+
+key.wearablebackpacks.open=Abrir mochila
+
+config.wearablebackpacks.general.enableEquippedInteraction=Acceso a otras mochilas
+config.wearablebackpacks.general.enableEquippedInteraction.tooltip=Controla si los jugadores pueden acceder a la mochilas de otros jugadores (y entidades) si estos la tienen equipada.
+config.wearablebackpacks.general.enableSelfInteraction=Interacción propia
+config.wearablebackpacks.general.enableSelfInteraction.tooltip=Controla si los jugadores pueden acceder a su mochila usando una tecla específica.
+config.wearablebackpacks.general.dropAsBlockOnDeath=Soltar al morir
+config.wearablebackpacks.general.dropAsBlockOnDeath.tooltip=Controla si las mochilas se colocan en el lugar de la muerte, en vez de dispersar su contenido.
+
+config.wearablebackpacks.cosmetic.enchantEffectOpacity=Opacidad de encantamiento
+config.wearablebackpacks.cosmetic.enchantEffectOpacity.tooltip=Controla la opacidad / visibilidad del efecto de encantamiento en las mochilas equipadas o colocadas, si es que tienen.

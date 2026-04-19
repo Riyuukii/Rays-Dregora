@@ -1,0 +1,31 @@
+container.wearablebackpacks.backpack=§6Ruksak
+
+item.wearablebackpacks.backpack.name=Ruksak
+
+tooltip.wearablebackpacks.moreInfo=Podrž %1$s pre viac info.
+tooltip.wearablebackpacks.openHint=Stlač %1$s pre otvorenie,\npokiaľ máš ruksak na sebe.
+tooltip.wearablebackpacks.equipHint=Polož a rozbi\npokiaľ sa krčíš, pre nasadenie.
+tooltip.wearablebackpacks.equipHint.extended=Pokrč sa a rozbi na nasadenie.\nPokrč sa a klikni pravym na zem\ns prázdnou rukou pre zloženie.
+tooltip.wearablebackpacks.unequipHint=Pokrč sa a klikni pravym na zem\ns prazdnou rukou pre zloženie.
+tooltip.wearablebackpacks.used=Momentálne je používaný hráčom.
+
+chat.wearablebackpacks.cantEquip=Už máš nasadený ruksak!.
+
+key.wearablebackpacks.open=Otvoriť ruksak
+
+config.wearablebackpacks.general.enableEquippedInteraction=Zapnúť Interakciu pri Nasadení
+config.wearablebackpacks.general.enableEquippedInteraction.tooltip=Ovláda či hráč môže pristupovať do nasadeného ruksaku ostatných hráčov (a entít).
+config.wearablebackpacks.general.enableSelfInteraction=Zapnúť Interakciu so Samým Sebou
+config.wearablebackpacks.general.enableSelfInteraction.tooltip=Ovláda či si hráč môže pristupovať do svojho ruksaku pomocou tlačítka.
+config.wearablebackpacks.general.enableMachineInteraction=Zapnúť Interakciu so Strojmi
+config.wearablebackpacks.general.enableMachineInteraction.tooltip=Ovláda či stroje (ako napríklad hopper) môžu interagovať s ruksakmi.
+config.wearablebackpacks.general.dropAsBlockOnDeath=Odhodiť ako Blok pri Smrti
+config.wearablebackpacks.general.dropAsBlockOnDeath.tooltip=Ovláda či sa ruksak položí na zem pri smrti, namiesto rozsypania obsahu.
+
+config.wearablebackpacks.entity.spawnNaturally=Prirodzený Spawn
+config.wearablebackpacks.entity.spawnNaturally.tooltip=Ovláda či prirodzene spawnutý mob môže mať náhodnú šancu pre nosenie ruksaku.
+config.wearablebackpacks.entity.spawnFromSpawners=Spawn Zo Spawnerov
+config.wearablebackpacks.entity.spawnFromSpawners.tooltip=Ovláda či Mob spawnutý zo spawnera, môže mať šancu pre nosenie ruksaku.
+
+config.wearablebackpacks.cosmetic.enchantEffectOpacity=Priehľadnosť Enchant Effektu
+config.wearablebackpacks.cosmetic.enchantEffectOpacity.tooltip=Ovláda priehľadnosť / viditeľnosť "enchant" effektu na nasadenom alebo položenom ruksaku, ak sa tu nachádza.

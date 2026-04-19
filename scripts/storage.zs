@@ -1,22 +1,26 @@
-recipes.remove(<storagenetwork:kabel>);
-recipes.remove(<storagenetwork:master>);
+// === Define items ===
+val remote0 = <storagenetwork:remote:0>;
+val remote1 = <storagenetwork:remote:1>;
+val remote2 = <storagenetwork:remote:2>;
+val remote3 = <storagenetwork:remote:3>;
+val request = <storagenetwork:request>;
+val collector = <storagenetwork:collector_remote:0>;
+val picker = <storagenetwork:picker_remote>;
 
-recipes.remove(<chunkloaders:single_chunk_loader>);
-recipes.remove(<chunkloaders:basic_chunk_loader>);
-recipes.remove(<chunkloaders:advanced_chunk_loader>);
-recipes.remove(<chunkloaders:ultimate_chunk_loader>);
+// === Remove crafting recipes ===
+recipes.remove(remote0);
+recipes.remove(remote1);
+recipes.remove(remote2);
+recipes.remove(remote3);
+recipes.remove(request);
+recipes.remove(collector);
+recipes.remove(picker);
 
-
-recipes.addShaped("storagerecipeyay",<storagenetwork:kabel>*8,
- [[<minecraft:stone_slab>,<minecraft:stone_slab>,<minecraft:stone_slab>],
-  [<minecraft:stone_slab>,null,<minecraft:stone_slab>],
-  [<minecraft:stone_slab>,<minecraft:stone_slab>,<minecraft:stone_slab>]]);
-
-  recipes.addShaped("storagerecipeyay2",<storagenetwork:master>,
- [[<minecraft:stone>,<storagenetwork:kabel>,<minecraft:stone>],
-  [<storagenetwork:kabel>,<minecraft:diamond>,<storagenetwork:kabel>],
-  [<minecraft:stone>,<storagenetwork:kabel>,<minecraft:stone>]]);
-
-recipes.addShapeless("storageyay",<chunkloaders:ultimate_chunk_loader>,[<storagenetwork:simple_kabel>]);
-
-recipes.removeByMod("debark");
+// === Hide from JEI ===
+mods.jei.JEI.hide(remote0);
+mods.jei.JEI.hide(remote1);
+mods.jei.JEI.hide(remote2);
+mods.jei.JEI.hide(remote3);
+mods.jei.JEI.hide(request);
+mods.jei.JEI.hide(collector);
+mods.jei.JEI.hide(picker);

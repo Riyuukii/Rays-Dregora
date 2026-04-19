@@ -1,0 +1,29 @@
+container.wearablebackpacks.backpack=§6Рюкзак
+
+item.wearablebackpacks.backpack.name=Рюкзак
+
+tooltip.wearablebackpacks.moreInfo=Удерживайте %1$s для подробностей.
+tooltip.wearablebackpacks.openHint=Нажмите %1$s чтобы открыть надетый.
+tooltip.wearablebackpacks.equipHint=Поставьте на землю, присядьте и\nсломайте чтобы надеть.
+tooltip.wearablebackpacks.equipHint.extended=Присесть и сломать, чтобы надеть.\nПрисесть и правый клик по земле\nпустой рукой, чтобы снять.
+tooltip.wearablebackpacks.unequipHint=Присесть и правый клик по земле\nпустой рукой, чтобы поставить.
+tooltip.wearablebackpacks.used=Уже используется другим игроком.
+
+chat.wearablebackpacks.cantEquip=На вас уже надет другой рюкзак.
+
+key.wearablebackpacks.open=Открыть рюкзак
+
+config.wearablebackpacks.general.enableEquippedInteraction=Разрешить взаимодействие с другими
+config.wearablebackpacks.general.enableEquippedInteraction.tooltip=Разрешает игрокам открывать рюкзаки надетые на других игроков (и мобов).
+config.wearablebackpacks.general.enableSelfInteraction=Разрешить взаимодействие с собой
+config.wearablebackpacks.general.enableSelfInteraction.tooltip=Разрешает игрокам открывать их собственный надетый рюкзак отдельной клавишей.
+config.wearablebackpacks.general.dropAsBlockOnDeath=Ставить на землю как блок после смерти
+config.wearablebackpacks.general.dropAsBlockOnDeath.tooltip=Разрешает рюкзаку падать на землю при смерти игрока целиком, а не разбрасывать своё содержимое.
+
+config.wearablebackpacks.entity.spawnNaturally=Появление мобов в мире
+config.wearablebackpacks.entity.spawnNaturally.tooltip=Задаёт, могут ли случайные мобы в мире появляться с рюкзаками
+config.wearablebackpacks.entity.spawnFromSpawners=Появление мобов от спаунера
+config.wearablebackpacks.entity.spawnFromSpawners.tooltip=Задаёт, могут ли случайные мобы из спаунеров появляться с рюкзаками
+
+config.wearablebackpacks.cosmetic.enchantEffectOpacity=Прозрачность эффекта чар
+config.wearablebackpacks.cosmetic.enchantEffectOpacity.tooltip=Контролирует отображение зачарований на одетых и поставленных рюказках, если есть.

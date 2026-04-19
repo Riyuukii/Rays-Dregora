@@ -1,0 +1,31 @@
+container.wearablebackpacks.backpack=§6背包
+
+item.wearablebackpacks.backpack.name=背包
+
+tooltip.wearablebackpacks.moreInfo=按住 %1$s 查看更多信息。
+tooltip.wearablebackpacks.openHint=按下 %1$s 打开背包。
+tooltip.wearablebackpacks.equipHint=潜行时放置并打掉即可装备。
+tooltip.wearablebackpacks.equipHint.extended=潜行时打掉即可装备。\n潜行时空手右击地面即可卸下。
+tooltip.wearablebackpacks.unequipHint=潜行时空手右击地面即可卸下。
+tooltip.wearablebackpacks.used=有玩家正在查看此背包。
+
+chat.wearablebackpacks.cantEquip=你最多只能装备一个背包！
+
+key.wearablebackpacks.open=打开背包
+
+config.wearablebackpacks.general.enableEquippedInteraction=玩家间可互相交互
+config.wearablebackpacks.general.enableEquippedInteraction.tooltip=启用此选项后，玩家可直接打开其他玩家或实体身上的背包。
+config.wearablebackpacks.general.enableSelfInteraction=快速访问背包
+config.wearablebackpacks.general.enableSelfInteraction.tooltip=启用此选项后，玩家可利用快捷键打开自己身上的背包。
+config.wearablebackpacks.general.enableMachineInteraction=与机械结构交互
+config.wearablebackpacks.general.enableMachineInteraction.tooltip=启用此选项后，诸如漏斗这样的设备可以直接与放置在地上的背包方块交互。
+config.wearablebackpacks.general.dropAsBlockOnDeath=玩家死亡时以方块形式出现
+config.wearablebackpacks.general.dropAsBlockOnDeath.tooltip=启用此选项后，背包会在玩家死亡时以方块形式出现，其中物品。
+
+config.wearablebackpacks.entity.spawnNaturally=自然生成设定
+config.wearablebackpacks.entity.spawnNaturally.tooltip=设定自然生成生物是否随机穿戴背包
+config.wearablebackpacks.entity.spawnFromSpawners=刷怪笼生成设定
+config.wearablebackpacks.entity.spawnFromSpawners.tooltip=设定刷怪笼生成生物是否随机穿戴背包
+
+config.wearablebackpacks.cosmetic.enchantEffectOpacity=附魔效果不透明度
+config.wearablebackpacks.cosmetic.enchantEffectOpacity.tooltip=如果背包拥有附魔，可以调控其附魔的不透明度，或者隐藏附魔。

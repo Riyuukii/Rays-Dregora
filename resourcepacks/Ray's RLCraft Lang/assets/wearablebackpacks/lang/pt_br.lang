@@ -1,0 +1,31 @@
+container.wearablebackpacks.backpack=§6Mochila
+
+item.wearablebackpacks.backpack.name=Mochila
+
+tooltip.wearablebackpacks.moreInfo=Pressione %1$s para saber mais.
+tooltip.wearablebackpacks.openHint=Pressione %1$s para abrir a mochila ao carregá-la.
+tooltip.wearablebackpacks.equipHint=Para equipar a mochila, coloque-a no chão e quebre-a\nao agachar-se.
+tooltip.wearablebackpacks.equipHint.extended=Agache-se e quebre-a para carregá-la.\nAgache-se e clique com o botão direito no chão\ncom a mão vazia para soltá-la.
+tooltip.wearablebackpacks.unequipHint=Agache-se e clique com o botão direito no chão\ncom a mão para soltá-la.
+tooltip.wearablebackpacks.used=Está em uso por um(a) jogador(a) no momento.
+
+chat.wearablebackpacks.cantEquip=Você já está levando uma mochila.
+
+key.wearablebackpacks.open=Abrir mochila
+
+config.wearablebackpacks.general.enableEquippedInteraction=Permitir interações
+config.wearablebackpacks.general.enableEquippedInteraction.tooltip=Permitir que jogadores possam acessar as mochilas levadas por outros jogadores e/ou entidades.
+config.wearablebackpacks.general.enableSelfInteraction=Permitir autointerações
+config.wearablebackpacks.general.enableSelfInteraction.tooltip=Permitir que jogadores possam acessar as mochilas deles usando teclas de atalho.
+config.wearablebackpacks.general.enableMachineInteraction=Permitir interações de máquinas
+config.wearablebackpacks.general.enableMachineInteraction.tooltip=Permitir que máquinas (como funis) possam interagir com mochilas colocadas no chão.
+config.wearablebackpacks.general.dropAsBlockOnDeath=Largar antes de morrer
+config.wearablebackpacks.general.dropAsBlockOnDeath.tooltip=Largar as mochilas antes de morrer, ao invés de descartar seus conteúdos.
+
+config.wearablebackpacks.entity.spawnNaturally=Geração espontânea
+config.wearablebackpacks.entity.spawnNaturally.tooltip=Permitir a geração natural de entidades levando mochilas com itens aleatórios.
+config.wearablebackpacks.entity.spawnFromSpawners=Geração controlada
+config.wearablebackpacks.entity.spawnFromSpawners.tooltip=Permitir que entidades geradas por geradores possam vir com mochilas.
+
+config.wearablebackpacks.cosmetic.enchantEffectOpacity=Opacidade do efeito de encant.
+config.wearablebackpacks.cosmetic.enchantEffectOpacity.tooltip=Alterar a opacidade/visibilidade do efeito de encantamento nas mochilas carregadas ou não levadas, se houver.

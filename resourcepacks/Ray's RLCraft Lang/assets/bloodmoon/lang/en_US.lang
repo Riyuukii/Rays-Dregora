@@ -1,0 +1,6 @@
+text.bloodmoon.notify=§fTake shelter, Because The §cBlood Moon §fis rising...
+text.bloodmoon.nosleep=§cYou`re Uncomfortable, It seems someone is watching you...
+text.bloodmoon.force=There will be a Bloodmoon next night
+text.bloodmoon.stop=Stopped the Bloodmoon
+text.bloodmoon.commandError=Bloodmoon Handler not loaded, try to execute this from the overworld.
+text.bloodmoon.entity=Monsters within 20 Blocks:

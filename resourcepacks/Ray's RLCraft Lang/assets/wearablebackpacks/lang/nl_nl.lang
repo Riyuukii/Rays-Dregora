@@ -1,0 +1,29 @@
+container.wearablebackpacks.backpack=§6Rugzak
+
+item.wearablebackpacks.backpack.name=Rugzak
+
+tooltip.wearablebackpacks.moreInfo=Houd %1$s ingedrukt voor meer info.
+tooltip.wearablebackpacks.openHint=Druk %1$s om te openen terwijl je het draagt.
+tooltip.wearablebackpacks.equipHint=Plaats neer en breek het\nterwijl je sluipt om het te dragen.
+tooltip.wearablebackpacks.equipHint.extended=Sluip en breek om te dragen.\nSluip en rechtsklik de grond\nmet een lege hand, om het uit te doen.
+tooltip.wearablebackpacks.unequipHint=Sluit en rechtsklik de grond\nmet een lege hand om het uit te doen.
+tooltip.wearablebackpacks.used=Momenteel in gebruik door een speler.
+
+chat.wearablebackpacks.cantEquip=Je bent al uitgerust met een rugzak.
+
+key.wearablebackpacks.open=Open Rugzak
+
+config.wearablebackpacks.general.enableEquippedInteraction=Schakel Uitgeruste Interactie in
+config.wearablebackpacks.general.enableEquippedInteraction.tooltip=Bepaald of spelers toegang hebben op de uitgeruste rugzakken van andere spelers (en entiteiten).
+config.wearablebackpacks.general.enableSelfInteraction=Schakel Zelf Interactie in
+config.wearablebackpacks.general.enableSelfInteraction.tooltip=Bepaalt of spelers toegang kunnen hebben tot hun eigen uitgeruste rugzak met behulp van een sneltoets.
+config.wearablebackpacks.general.dropAsBlockOnDeath=Laat vallen als een blok indien je sterft
+config.wearablebackpacks.general.dropAsBlockOnDeath.tooltip=Bepaalt of rugzakken zichzelf neerplaatsen in geval van overlijden, in plaats van hun inhoud te verstrooien.
+
+config.wearablebackpacks.entity.spawnNaturally=Verschijnt normaal
+config.wearablebackpacks.entity.spawnNaturally.tooltip=Bepaalt of wezens die op natuurlijke wijze verschijnen een willekeurig rugzak kunnen dragen
+config.wearablebackpacks.entity.spawnFromSpawners=Verschijnt door Monsterkooien
+config.wearablebackpacks.entity.spawnFromSpawners.tooltip=Bepaalt of wezens die verschijnen van Monsterkooien een willekeurig rugzak kunnen dragen
+
+config.wearablebackpacks.cosmetic.enchantEffectOpacity=Betovering Effect Dekking
+config.wearablebackpacks.cosmetic.enchantEffectOpacity.tooltip=Bepaalt de dekking / zichtbaarheid van het betoverende effect op uitgeruste en geplaatste rugzakken, indien aanwezig.

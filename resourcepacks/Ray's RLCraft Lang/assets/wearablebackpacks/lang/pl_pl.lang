@@ -1,0 +1,31 @@
+container.wearablebackpacks.backpack=§6Plecak
+
+item.wearablebackpacks.backpack.name=Plecak
+
+tooltip.wearablebackpacks.moreInfo=Przytrzymaj %1$s aby wyświetlić więcej informacji.
+tooltip.wearablebackpacks.openHint=Naciśnij %1$s aby otworzyć założony.
+tooltip.wearablebackpacks.equipHint=Połóż i zbierz\nkucając by założyć.
+tooltip.wearablebackpacks.equipHint.extended=Kucaj i zbieraj.\nKucnij i kliknij ziemię\npustą ręką by zdjąć.
+tooltip.wearablebackpacks.unequipHint=Kucnij i kliknij prawym przyciskiem na ziemię\nz pustą ręką by zdjąć.
+tooltip.wearablebackpacks.used=Obecnie używany przez gracza.
+
+chat.wearablebackpacks.cantEquip=Masz już założony plecak.
+
+key.wearablebackpacks.open=Otwórz Plecak
+
+config.wearablebackpacks.general.enableEquippedInteraction=Włącz interakcję z założonym na innym graczu plecakiem.
+config.wearablebackpacks.general.enableEquippedInteraction.tooltip=Kontroluje, czy gracze mają dostęp do plecaków noszonych przez innych graczy (i moby).
+config.wearablebackpacks.general.enableSelfInteraction=Włącz interakcję z założonym na sobie plecakiem.
+config.wearablebackpacks.general.enableSelfInteraction.tooltip=Kontroluje, czy gracze mają dostęp do noszonego przez siebie plecaka poprzez skrót klawiszowy.
+config.wearablebackpacks.general.enableMachineInteraction=Włącz interakcję z maszynami.
+config.wearablebackpacks.general.enableMachineInteraction.tooltip=Kontroluje, czy maszyny (np. leje) mają dostęp do postawionych na ziemii plecaków.
+config.wearablebackpacks.general.dropAsBlockOnDeath=Upuść jako blok po śmierci.
+config.wearablebackpacks.general.dropAsBlockOnDeath.tooltip=Kontroluje, czy plecaki są upuszczane po śmierci, zamiast rozrzucania ich zawartości.
+
+config.wearablebackpacks.entity.spawnNaturally=Spawnuj naturalnie
+config.wearablebackpacks.entity.spawnNaturally.tooltip=Kontroluje, czy naturalnie spawnowane byty mają losową szansę na noszenie plecaka
+config.wearablebackpacks.entity.spawnFromSpawners=Spawnuj ze Spawnerów
+config.wearablebackpacks.entity.spawnFromSpawners.tooltip=Kontroluje, czy byty spawnowane w spawnerach mają szansę na noszenie plecaka
+
+config.wearablebackpacks.cosmetic.enchantEffectOpacity=Przeźroczystość efektu zaklnięcia
+config.wearablebackpacks.cosmetic.enchantEffectOpacity.tooltip=Kontroluje widoczność efektu zaklnięcia na położonych i założonych plecakach (jeśli obecny).

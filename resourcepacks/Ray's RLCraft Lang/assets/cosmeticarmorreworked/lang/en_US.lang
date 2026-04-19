@@ -1,0 +1,5 @@
+cos.key.opencosarmorinventory=OpenCosmeticArmorInventory
+cos.gui.buttoncos=§6CosmeticArmor
+cos.gui.buttonnormal=§6Normal
+cos.command.clearcosarmor=/clearcosarmor [player]
+cos.command.clearcosarmor.success=Cleared the cosmetic inventory of %s
