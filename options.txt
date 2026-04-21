@@ -4,7 +4,7 @@ mouseSensitivity:0.36619717
 fov:0.725
 gamma:1.0
 saturation:0.0
-renderDistance:11
+renderDistance:9
 guiScale:3
 particles:0
 bobView:true
@@ -15,8 +15,8 @@ difficulty:3
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["Updated Modded","RLHats.zip","Lum.1.12.2.zip","AnimEmis_InF_SW_Blue.zip","AnimEmis_defiledlands.zip","AnimEmis_srparasites.zip","Emis_Rlcraft.zip","RLDTooltips.zip","RLD_Textures.zip","DLD_Textures.zip","AnimEmis_ForgottenItems.zip","FMB_Textures.zip","ModernityRL","CONSISTENCY 1.12.2-V0.2.zip","Better Tools","Lycanites Redux 1.12.2-v8.2.1","Black Shield","Ray\u0027s Argus","RLC_Nuclear.v1.0.1.zip","Ray\u0027s Morock","invisible dragon armor","RLEnchantedBooks.zip","Better_Enderdragon.zip","Stoneborn Ray 2.0","Stoneborn RL Ray 2.0","JAPPA_RLCraftAdd-on_Nether.zip","Defiled Lands Retextured.zip","Atlas","Pvp Crosshair Overlay.zip","Minimalist Crosshair.zip"]
-incompatibleResourcePacks:["Better Tools","JAPPA_RLCraftAdd-on_Nether.zip","Pvp Crosshair Overlay.zip","Minimalist Crosshair.zip"]
+resourcePacks:["Updated Modded","RLHats.zip","Lum.1.12.2.zip","AnimEmis_InF_SW_Blue.zip","AnimEmis_defiledlands.zip","AnimEmis_srparasites.zip","Emis_Rlcraft.zip","RLDTooltips.zip","RLD_Textures.zip","DLD_Textures.zip","AnimEmis_ForgottenItems.zip","FMB_Textures.zip","ModernityRL","CONSISTENCY 1.12.2-V0.2.zip","Better Tools","Lycanites Redux 1.12.2-v8.2.1","Black Shield","Ray\u0027s Argus","RLC_Nuclear.v1.0.1.zip","Ray\u0027s Morock","invisible dragon armor","RLEnchantedBooks.zip","Better_Enderdragon.zip","Stoneborn Ray 2.0","Stoneborn RL Ray 2.0","JAPPA_RLCraftAdd-on_Nether.zip","Defiled Lands Retextured.zip","Atlas","Ray\u0027s RLCraft Lang","Ray\u0027s CosmeticArmor"]
+incompatibleResourcePacks:["Better Tools","JAPPA_RLCraftAdd-on_Nether.zip"]
 lastServer:192.168.43.75
 lang:en_us
 chatVisibility:0
@@ -30,7 +30,7 @@ enableVsync:false
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:false
-pauseOnLostFocus:false
+pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
 overrideHeight:0
@@ -86,14 +86,14 @@ key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
 key_of.key.zoom:0
-key_Open Friends Gui:0
-key_Open Cosmetic Studio:0
-key_keybind.name.SCREENSHOT_MANAGER:0
+key_Open Friends Gui:35
+key_Open Cosmetic Studio:48
+key_keybind.name.SCREENSHOT_MANAGER:23
 key_Cosmetic Visibility Toggle:0
 key_Chat Peek:44
 key_Invite Friends:0
-key_keybind.name.MENU_ACCESS:0
-key_keybind.name.EMOTE_WHEEL:0
+key_keybind.name.MENU_ACCESS:34
+key_keybind.name.EMOTE_WHEEL:19
 key_keybind.name.EMOTE_SLOT_1:0
 key_keybind.name.EMOTE_SLOT_2:0
 key_keybind.name.EMOTE_SLOT_3:0
@@ -104,6 +104,8 @@ key_keybind.name.EMOTE_SLOT_7:0
 key_keybind.name.EMOTE_SLOT_8:0
 key_Reload Menu | CTRL + ALT + :0
 key_Toggle Customization Overlay | CTRL + ALT + :46
+key_atlasextras.keybind.togglehud:39
+key_clickedthrough.options.key.toggle_clicked_through:67
 key_key.death_history:22
 key_cos.key.opencosarmorinventory:0
 key_keybind.baublesinventory:0
@@ -148,10 +150,7 @@ key_dshuds.keybind.LightLevel:0
 key_dshuds.keybind.ChunkBorders:0
 key_key.pickup.item:0
 key_smoothfont.key.guiOpen:199
-key_key.openatlas.desc:50
-key_atlasextras.keybind.togglehud:0
-key_atlasextras.keybind.openatlas:0
-key_chunkloaders.keys.open_screen:34
+key_chunkloaders.keys.open_screen:46
 key_key.inventoryhud.toggle:0
 key_key.inventoryhud.openconfig:0
 key_key.inventoryhud.togglepot:-1
@@ -172,11 +171,6 @@ key_key.jei.toggleBookmarkOverlay:0
 key_key.otghud.desc:0
 key_keybind.universaltweaks.clear_toasts:11:CONTROL
 key_key.unhook:0
-key_gui.antiqueatlas.addMarker:30
-key_gui.antiqueatlas.delMarker:32
-key_gui.antiqueatlas.hideMarkers:17
-key_gui.antiqueatlas.followPlayer:33:CONTROL
-key_gui.antiqueatlas.copymarker:46
 key_key.astikorcarts.desc:0
 key_key.dragon_fireAttack:47
 key_key.dragon_strike:49

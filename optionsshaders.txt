@@ -1,5 +1,5 @@
-#Tue Apr 14 23:21:46 ICT 2026
-shaderPack=Complementary v4.6 - RLCraft Edit v1.0
+#Wed Apr 22 04:14:34 ICT 2026
+shaderPack=Ray's Complementary v4.6 - RLCraft Edit v1.0
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true
