@@ -1,0 +1,29 @@
+container.wearablebackpacks.backpack=§6Rucksack
+
+item.wearablebackpacks.backpack.name=Rucksack
+
+tooltip.wearablebackpacks.moreInfo=Halte %1$s für mehr Info.
+tooltip.wearablebackpacks.openHint=Drücke %1$s zum Öffnen des getragenen Rucksacks.
+tooltip.wearablebackpacks.equipHint=Zum Ausrüsten platzieren\nund schleichend abbauen.
+tooltip.wearablebackpacks.equipHint.extended=Zum Ausrüsten schleichen und abbauen.\nZum Absetzen schleichen und Boden\nmit freier Hand rechtsklicken.
+tooltip.wearablebackpacks.unequipHint=Zum Absetzen schleichen und\nBoden mit freier Hand rechtsklicken.
+tooltip.wearablebackpacks.used=Wird gerade vom einem Spieler benutzt.
+
+chat.wearablebackpacks.cantEquip=Du trägst bereits einen Rucksack.
+
+key.wearablebackpacks.open=Rucksack öffnen
+
+config.wearablebackpacks.general.enableEquippedInteraction=Interaktionen mit getragenen Rucksäcken aktivieren
+config.wearablebackpacks.general.enableEquippedInteraction.tooltip=Kontrolliert, ob Spieler die Rucksäcke anderer Spieler (und Monster) öffnen können.
+config.wearablebackpacks.general.enableSelfInteraction=Selbstinteraktion aktivieren
+config.wearablebackpacks.general.enableSelfInteraction.tooltip=Kontolliert, ob Spieler ihre eigenen getragenen Rucksäcke auf Tastendrück öffnen können.
+config.wearablebackpacks.general.dropAsBlockOnDeath=Bei Tod als Block absetzen
+config.wearablebackpacks.general.dropAsBlockOnDeath.tooltip=Kontrolliert, ob Rucksäcke sich als Block platzieren, wenn ihre Besitzer sterben, anstatt ihre Inhalte auf dem Boden zu verteilen.
+
+config.wearablebackpacks.entity.spawnNaturally=Natürlicher Spawn
+config.wearablebackpacks.entity.spawnNaturally.tooltip=Kontrolliert, ob natürlich spawnende Monster ab und zu Rucksäcke tragen können.
+config.wearablebackpacks.entity.spawnFromSpawners=Spawn von Spawnern
+config.wearablebackpacks.entity.spawnFromSpawners.tooltip=Kontrolliert, ob aus Spawnern stammende Monster ab und zu Rucksäcke tragen können.
+
+config.wearablebackpacks.cosmetic.enchantEffectOpacity=Undurchsichtigkeit des Verzauberungseffekts
+config.wearablebackpacks.cosmetic.enchantEffectOpacity.tooltip=Bestimmt die Durchsichtigkeit des Verzauberungseffects auf getragenen und platzierten Rucksäcken, wenn vorhanden.
